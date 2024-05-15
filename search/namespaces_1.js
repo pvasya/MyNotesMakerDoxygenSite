@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['anonymous_5fnamespace_7bjson_2ehpp_7d_0',['anonymous_namespace{json.hpp}',['../namespaceanonymous__namespace_02json_8hpp_03.html',1,'']]],
-  ['anonymous_5fnamespace_7bqrc_5fres_2ecpp_7d_1',['anonymous_namespace{qrc_res.cpp}',['../namespaceanonymous__namespace_02qrc__res_8cpp_03.html',1,'']]]
+  ['q_5fsp_0',['q_sp',['../namespaceq__sp.html',1,'']]],
+  ['qt_5fwarning_5fdisable_5fdeprecated_1',['QT_WARNING_DISABLE_DEPRECATED',['../namespace_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['given_0',['GIVEN',['../_o_o_o_p_2lab1_2doctest_8h.html#a6fdd23caff3293146ba6929b2d77465a',1,'GIVEN:&#160;doctest.h'],['../qt_2_o_o_o_p_2lab1_2doctest_8h.html#a6fdd23caff3293146ba6929b2d77465a',1,'GIVEN:&#160;doctest.h'],['../task_2_o_o_o_p_2lab1_2doctest_8h.html#a6fdd23caff3293146ba6929b2d77465a',1,'GIVEN:&#160;doctest.h']]]
+  ['mingw_5fhas_5fsecure_5fapi_0',['MINGW_HAS_SECURE_API',['../_desktop___qt__6__6__3___min_g_w__64__bit-_debug_2_my_notes_maker__autogen_2moc__predefs_8h.html#a7652218632d79c675cce0c49732ee345',1,'MINGW_HAS_SECURE_API:&#160;moc_predefs.h'],['../_desktop___qt__6__6__3___min_g_w__64__bit-_release_2_my_notes_maker__autogen_2moc__predefs_8h.html#a7652218632d79c675cce0c49732ee345',1,'MINGW_HAS_SECURE_API:&#160;moc_predefs.h']]]
 ];

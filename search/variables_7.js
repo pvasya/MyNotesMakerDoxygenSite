@@ -1,20 +1,19 @@
 var searchData=
 [
-  ['game_0',['game',['../class_main_window.html#a93bbe3b61df19d94c52856c5afb21ed0',1,'MainWindow::game'],['../class_ui___main_window.html#a792834b7885d57701bcbf30285aa64db',1,'Ui_MainWindow::game']]],
+  ['game_0',['game',['../class_ui___main_window.html#a792834b7885d57701bcbf30285aa64db',1,'Ui_MainWindow::game'],['../class_main_window.html#ac78cdafa6d8ef13c41015ed92c5a2a54',1,'MainWindow::game']]],
   ['generaterandombtn_1',['generateRandomBtn',['../class_ui___particle_life_widget.html#a6a8c7f1a12052cfc06e519e4924504c7',1,'Ui_ParticleLifeWidget']]],
   ['getclosedrect_2',['getClosedRect',['../class_side_panel.html#a7ecdad3b46239ec5f55c08ee79e1922f',1,'SidePanel']]],
   ['getopenedrect_3',['getOpenedRect',['../class_side_panel.html#ae61bd346124e0d05ec9260c54eaa3a5e',1,'SidePanel']]],
-  ['gnu_5ffile_5fline_4',['gnu_file_line',['../structdoctest_1_1_context_options.html#aab894e731a6fc86cf095288ec7d0c0f2',1,'doctest::ContextOptions']]],
-  ['graphicsview_5',['graphicsView',['../class_ui___particle_life_widget.html#a51a56b2ebb3dd54b5c67c6176cc0063f',1,'Ui_ParticleLifeWidget']]],
-  ['green_5fblue_6',['green_blue',['../class_particle_life_widget.html#ae6778ffadcd2e8376a2c7252b7edfa5d',1,'ParticleLifeWidget']]],
-  ['green_5fgreen_7',['green_green',['../class_particle_life_widget.html#a09c3502c46732a05d0e4757a67c432e6',1,'ParticleLifeWidget']]],
-  ['green_5fred_8',['green_red',['../class_particle_life_widget.html#a94d040548e22c40035413ecec27abe31',1,'ParticleLifeWidget']]],
-  ['green_5fthread_9',['green_thread',['../class_particle_life_widget.html#a4d4d0ef109a85eb8cad43db54f2c3c29',1,'ParticleLifeWidget']]],
-  ['greenblueslider_10',['greenBlueSlider',['../class_ui___particle_life_widget.html#a1f5690f47722e18b6d698861eab7f8fa',1,'Ui_ParticleLifeWidget']]],
-  ['greencount_11',['greenCount',['../class_particle_life_widget.html#aa4aeab22faf58900c6f5b1b49803b683',1,'ParticleLifeWidget']]],
-  ['greengreenslider_12',['greenGreenSlider',['../class_ui___particle_life_widget.html#ac005a328b40f59f70cb62b3b842ca6b1',1,'Ui_ParticleLifeWidget']]],
-  ['greenparticles_13',['greenParticles',['../class_particle_life_widget.html#a43c66bc31017ca9e33b2a36e11d5bfd9',1,'ParticleLifeWidget']]],
-  ['greenradiusslider_14',['GreenradiusSlider',['../class_ui___particle_life_widget.html#a29befeb4668076d7768a94e4a713e9c9',1,'Ui_ParticleLifeWidget']]],
-  ['greenredslider_15',['greenRedSlider',['../class_ui___particle_life_widget.html#a4b5b962551e940d668295c45100e741e',1,'Ui_ParticleLifeWidget']]],
-  ['greenslider_16',['greenSlider',['../class_ui___particle_life_widget.html#a503a33db814c299ff0fb7f5d38997c27',1,'Ui_ParticleLifeWidget']]]
+  ['graphicsview_4',['graphicsView',['../class_ui___particle_life_widget.html#a51a56b2ebb3dd54b5c67c6176cc0063f',1,'Ui_ParticleLifeWidget']]],
+  ['green_5fblue_5',['green_blue',['../class_particle_life_widget.html#ae6778ffadcd2e8376a2c7252b7edfa5d',1,'ParticleLifeWidget']]],
+  ['green_5fgreen_6',['green_green',['../class_particle_life_widget.html#a09c3502c46732a05d0e4757a67c432e6',1,'ParticleLifeWidget']]],
+  ['green_5fred_7',['green_red',['../class_particle_life_widget.html#a94d040548e22c40035413ecec27abe31',1,'ParticleLifeWidget']]],
+  ['green_5fthread_8',['green_thread',['../class_particle_life_widget.html#a04659001c821ca412df3729213d49f85',1,'ParticleLifeWidget']]],
+  ['greenblueslider_9',['greenBlueSlider',['../class_ui___particle_life_widget.html#a1f5690f47722e18b6d698861eab7f8fa',1,'Ui_ParticleLifeWidget']]],
+  ['greencount_10',['greenCount',['../class_particle_life_widget.html#aa4aeab22faf58900c6f5b1b49803b683',1,'ParticleLifeWidget']]],
+  ['greengreenslider_11',['greenGreenSlider',['../class_ui___particle_life_widget.html#ac005a328b40f59f70cb62b3b842ca6b1',1,'Ui_ParticleLifeWidget']]],
+  ['greenparticles_12',['greenParticles',['../class_particle_life_widget.html#a34f0c50c9ff8c1902313de6491cf73dd',1,'ParticleLifeWidget']]],
+  ['greenradiusslider_13',['GreenradiusSlider',['../class_ui___particle_life_widget.html#a29befeb4668076d7768a94e4a713e9c9',1,'Ui_ParticleLifeWidget']]],
+  ['greenredslider_14',['greenRedSlider',['../class_ui___particle_life_widget.html#a4b5b962551e940d668295c45100e741e',1,'Ui_ParticleLifeWidget']]],
+  ['greenslider_15',['greenSlider',['../class_ui___particle_life_widget.html#a503a33db814c299ff0fb7f5d38997c27',1,'Ui_ParticleLifeWidget']]]
 ];

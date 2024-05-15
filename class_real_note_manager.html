@@ -83,17 +83,14 @@ $(function() {
 <p>Патерн Proxy. Керує нотатками в пам'яті програми  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_my_notes_maker_2realnotemanager_8h_source.html">realnotemanager.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="realnotemanager_8h_source.html">realnotemanager.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for RealNoteManager:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_real_note_manager.png" usemap="#RealNoteManager_map" alt=""/>
   <map id="RealNoteManager_map" name="RealNoteManager_map">
-<area href="class_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="NoteManager" shape="rect" coords="0,0,114,24"/>
-<area href="class_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="NoteManager" shape="rect" coords="124,0,238,24"/>
-<area href="class_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="NoteManager" shape="rect" coords="248,0,362,24"/>
-<area href="class_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="NoteManager" shape="rect" coords="372,0,486,24"/>
+<area href="class_note_manager.html" title="The NoteManager class, a Proxy pattern that manages notes in the program&#39;s memory." alt="NoteManager" shape="rect" coords="0,0,114,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -104,108 +101,45 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4b753b338e9f92fdce5670b5fdfbf85a" id="r_a4b753b338e9f92fdce5670b5fdfbf85a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b753b338e9f92fdce5670b5fdfbf85a">~RealNoteManager</a> ()</td></tr>
 <tr class="separator:a4b753b338e9f92fdce5670b5fdfbf85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33cf1e77bfa88dea21ab4c65a6dc3da9" id="r_a33cf1e77bfa88dea21ab4c65a6dc3da9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33cf1e77bfa88dea21ab4c65a6dc3da9">saveNote</a> (QString title, QString text, QString date_time) override</td></tr>
+<tr class="memdesc:a33cf1e77bfa88dea21ab4c65a6dc3da9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a note with the specified title, text, and date.  <br /></td></tr>
 <tr class="separator:a33cf1e77bfa88dea21ab4c65a6dc3da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef5a3247acf60484550fe44561a5e84e" id="r_aef5a3247acf60484550fe44561a5e84e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef5a3247acf60484550fe44561a5e84e">deleteNote</a> (QString title) override</td></tr>
+<tr class="memdesc:aef5a3247acf60484550fe44561a5e84e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a note with the specified title.  <br /></td></tr>
 <tr class="separator:aef5a3247acf60484550fe44561a5e84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b824d9f3608769b6a1bf8a979d9be53" id="r_a2b824d9f3608769b6a1bf8a979d9be53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b824d9f3608769b6a1bf8a979d9be53">changeNote</a> (QString title, QString text) override</td></tr>
+<tr class="memdesc:a2b824d9f3608769b6a1bf8a979d9be53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the text content of a note with the specified title.  <br /></td></tr>
 <tr class="separator:a2b824d9f3608769b6a1bf8a979d9be53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d296d28023bd14af34e1554a40db6c8" id="r_a9d296d28023bd14af34e1554a40db6c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d296d28023bd14af34e1554a40db6c8">getNote</a> (QString title) override</td></tr>
+<tr class="memdesc:a9d296d28023bd14af34e1554a40db6c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the note with the specified title.  <br /></td></tr>
 <tr class="separator:a9d296d28023bd14af34e1554a40db6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cb79fa0f84a8d3d95c18e9444dc2652" id="r_a4cb79fa0f84a8d3d95c18e9444dc2652"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cb79fa0f84a8d3d95c18e9444dc2652">load</a> () override</td></tr>
+<tr class="memdesc:a4cb79fa0f84a8d3d95c18e9444dc2652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads notes from storage.  <br /></td></tr>
 <tr class="separator:a4cb79fa0f84a8d3d95c18e9444dc2652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36d25a48eb418942c83a78d1ef1c95f6" id="r_a36d25a48eb418942c83a78d1ef1c95f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36d25a48eb418942c83a78d1ef1c95f6">save</a> () override</td></tr>
+<tr class="memdesc:a36d25a48eb418942c83a78d1ef1c95f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves notes to storage.  <br /></td></tr>
 <tr class="separator:a36d25a48eb418942c83a78d1ef1c95f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaba259c157c4846093cd7f6ffb32818d" id="r_aaba259c157c4846093cd7f6ffb32818d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba259c157c4846093cd7f6ffb32818d">isExist</a> (QString title) override</td></tr>
-<tr class="separator:aaba259c157c4846093cd7f6ffb32818d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0022f781ff4d5f9790523c0b2b287dec" id="r_a0022f781ff4d5f9790523c0b2b287dec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0022f781ff4d5f9790523c0b2b287dec">writeLog</a> (const QString &amp;message)</td></tr>
-<tr class="separator:a0022f781ff4d5f9790523c0b2b287dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84db13dd1ec6e7f2dbae29a297b3ba83" id="r_a84db13dd1ec6e7f2dbae29a297b3ba83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84db13dd1ec6e7f2dbae29a297b3ba83">getNote</a> (int i) override</td></tr>
-<tr class="separator:a84db13dd1ec6e7f2dbae29a297b3ba83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75d5c6af71d3952b661231b17669ada1" id="r_a75d5c6af71d3952b661231b17669ada1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75d5c6af71d3952b661231b17669ada1">getLenght</a> () override</td></tr>
-<tr class="separator:a75d5c6af71d3952b661231b17669ada1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea0c6e94f034aba757546f783e983c94" id="r_aea0c6e94f034aba757546f783e983c94"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea0c6e94f034aba757546f783e983c94">RealNoteManager</a> ()</td></tr>
-<tr class="separator:aea0c6e94f034aba757546f783e983c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b753b338e9f92fdce5670b5fdfbf85a" id="r_a4b753b338e9f92fdce5670b5fdfbf85a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b753b338e9f92fdce5670b5fdfbf85a">~RealNoteManager</a> ()</td></tr>
-<tr class="separator:a4b753b338e9f92fdce5670b5fdfbf85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33cf1e77bfa88dea21ab4c65a6dc3da9" id="r_a33cf1e77bfa88dea21ab4c65a6dc3da9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33cf1e77bfa88dea21ab4c65a6dc3da9">saveNote</a> (QString title, QString text, QString date_time) override</td></tr>
-<tr class="separator:a33cf1e77bfa88dea21ab4c65a6dc3da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef5a3247acf60484550fe44561a5e84e" id="r_aef5a3247acf60484550fe44561a5e84e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef5a3247acf60484550fe44561a5e84e">deleteNote</a> (QString title) override</td></tr>
-<tr class="separator:aef5a3247acf60484550fe44561a5e84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b824d9f3608769b6a1bf8a979d9be53" id="r_a2b824d9f3608769b6a1bf8a979d9be53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b824d9f3608769b6a1bf8a979d9be53">changeNote</a> (QString title, QString text) override</td></tr>
-<tr class="separator:a2b824d9f3608769b6a1bf8a979d9be53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d296d28023bd14af34e1554a40db6c8" id="r_a9d296d28023bd14af34e1554a40db6c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d296d28023bd14af34e1554a40db6c8">getNote</a> (QString title) override</td></tr>
-<tr class="separator:a9d296d28023bd14af34e1554a40db6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cb79fa0f84a8d3d95c18e9444dc2652" id="r_a4cb79fa0f84a8d3d95c18e9444dc2652"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cb79fa0f84a8d3d95c18e9444dc2652">load</a> () override</td></tr>
-<tr class="separator:a4cb79fa0f84a8d3d95c18e9444dc2652"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36d25a48eb418942c83a78d1ef1c95f6" id="r_a36d25a48eb418942c83a78d1ef1c95f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36d25a48eb418942c83a78d1ef1c95f6">save</a> () override</td></tr>
-<tr class="separator:a36d25a48eb418942c83a78d1ef1c95f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaba259c157c4846093cd7f6ffb32818d" id="r_aaba259c157c4846093cd7f6ffb32818d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba259c157c4846093cd7f6ffb32818d">isExist</a> (QString title) override</td></tr>
+<tr class="memdesc:aaba259c157c4846093cd7f6ffb32818d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a note with the specified title exists.  <br /></td></tr>
 <tr class="separator:aaba259c157c4846093cd7f6ffb32818d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84db13dd1ec6e7f2dbae29a297b3ba83" id="r_a84db13dd1ec6e7f2dbae29a297b3ba83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84db13dd1ec6e7f2dbae29a297b3ba83">getNote</a> (int i) override</td></tr>
+<tr class="memdesc:a84db13dd1ec6e7f2dbae29a297b3ba83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the note at the specified index.  <br /></td></tr>
 <tr class="separator:a84db13dd1ec6e7f2dbae29a297b3ba83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad38daf2f2455471f0b716b63bd615ea8" id="r_ad38daf2f2455471f0b716b63bd615ea8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad38daf2f2455471f0b716b63bd615ea8">getLength</a> () override</td></tr>
 <tr class="memdesc:ad38daf2f2455471f0b716b63bd615ea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the total number of notes.  <br /></td></tr>
 <tr class="separator:ad38daf2f2455471f0b716b63bd615ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea0c6e94f034aba757546f783e983c94" id="r_aea0c6e94f034aba757546f783e983c94"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea0c6e94f034aba757546f783e983c94">RealNoteManager</a> ()</td></tr>
-<tr class="separator:aea0c6e94f034aba757546f783e983c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b753b338e9f92fdce5670b5fdfbf85a" id="r_a4b753b338e9f92fdce5670b5fdfbf85a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b753b338e9f92fdce5670b5fdfbf85a">~RealNoteManager</a> ()</td></tr>
-<tr class="separator:a4b753b338e9f92fdce5670b5fdfbf85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33cf1e77bfa88dea21ab4c65a6dc3da9" id="r_a33cf1e77bfa88dea21ab4c65a6dc3da9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33cf1e77bfa88dea21ab4c65a6dc3da9">saveNote</a> (QString title, QString text, QString date_time) override</td></tr>
-<tr class="separator:a33cf1e77bfa88dea21ab4c65a6dc3da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef5a3247acf60484550fe44561a5e84e" id="r_aef5a3247acf60484550fe44561a5e84e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef5a3247acf60484550fe44561a5e84e">deleteNote</a> (QString title) override</td></tr>
-<tr class="separator:aef5a3247acf60484550fe44561a5e84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b824d9f3608769b6a1bf8a979d9be53" id="r_a2b824d9f3608769b6a1bf8a979d9be53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b824d9f3608769b6a1bf8a979d9be53">changeNote</a> (QString title, QString text) override</td></tr>
-<tr class="separator:a2b824d9f3608769b6a1bf8a979d9be53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d296d28023bd14af34e1554a40db6c8" id="r_a9d296d28023bd14af34e1554a40db6c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d296d28023bd14af34e1554a40db6c8">getNote</a> (QString title) override</td></tr>
-<tr class="separator:a9d296d28023bd14af34e1554a40db6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cb79fa0f84a8d3d95c18e9444dc2652" id="r_a4cb79fa0f84a8d3d95c18e9444dc2652"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cb79fa0f84a8d3d95c18e9444dc2652">load</a> () override</td></tr>
-<tr class="separator:a4cb79fa0f84a8d3d95c18e9444dc2652"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36d25a48eb418942c83a78d1ef1c95f6" id="r_a36d25a48eb418942c83a78d1ef1c95f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36d25a48eb418942c83a78d1ef1c95f6">save</a> () override</td></tr>
-<tr class="separator:a36d25a48eb418942c83a78d1ef1c95f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaba259c157c4846093cd7f6ffb32818d" id="r_aaba259c157c4846093cd7f6ffb32818d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba259c157c4846093cd7f6ffb32818d">isExist</a> (QString title) override</td></tr>
-<tr class="separator:aaba259c157c4846093cd7f6ffb32818d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84db13dd1ec6e7f2dbae29a297b3ba83" id="r_a84db13dd1ec6e7f2dbae29a297b3ba83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84db13dd1ec6e7f2dbae29a297b3ba83">getNote</a> (int i) override</td></tr>
-<tr class="separator:a84db13dd1ec6e7f2dbae29a297b3ba83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad38daf2f2455471f0b716b63bd615ea8" id="r_ad38daf2f2455471f0b716b63bd615ea8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad38daf2f2455471f0b716b63bd615ea8">getLength</a> () override</td></tr>
-<tr class="memdesc:ad38daf2f2455471f0b716b63bd615ea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the total number of notes.  <br /></td></tr>
-<tr class="separator:ad38daf2f2455471f0b716b63bd615ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea0c6e94f034aba757546f783e983c94" id="r_aea0c6e94f034aba757546f783e983c94"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea0c6e94f034aba757546f783e983c94">RealNoteManager</a> ()</td></tr>
-<tr class="separator:aea0c6e94f034aba757546f783e983c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b753b338e9f92fdce5670b5fdfbf85a" id="r_a4b753b338e9f92fdce5670b5fdfbf85a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b753b338e9f92fdce5670b5fdfbf85a">~RealNoteManager</a> ()</td></tr>
-<tr class="separator:a4b753b338e9f92fdce5670b5fdfbf85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33cf1e77bfa88dea21ab4c65a6dc3da9" id="r_a33cf1e77bfa88dea21ab4c65a6dc3da9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33cf1e77bfa88dea21ab4c65a6dc3da9">saveNote</a> (QString title, QString text, QString date_time) override</td></tr>
-<tr class="separator:a33cf1e77bfa88dea21ab4c65a6dc3da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef5a3247acf60484550fe44561a5e84e" id="r_aef5a3247acf60484550fe44561a5e84e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef5a3247acf60484550fe44561a5e84e">deleteNote</a> (QString title) override</td></tr>
-<tr class="separator:aef5a3247acf60484550fe44561a5e84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b824d9f3608769b6a1bf8a979d9be53" id="r_a2b824d9f3608769b6a1bf8a979d9be53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b824d9f3608769b6a1bf8a979d9be53">changeNote</a> (QString title, QString text) override</td></tr>
-<tr class="separator:a2b824d9f3608769b6a1bf8a979d9be53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d296d28023bd14af34e1554a40db6c8" id="r_a9d296d28023bd14af34e1554a40db6c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d296d28023bd14af34e1554a40db6c8">getNote</a> (QString title) override</td></tr>
-<tr class="separator:a9d296d28023bd14af34e1554a40db6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cb79fa0f84a8d3d95c18e9444dc2652" id="r_a4cb79fa0f84a8d3d95c18e9444dc2652"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cb79fa0f84a8d3d95c18e9444dc2652">load</a> () override</td></tr>
-<tr class="separator:a4cb79fa0f84a8d3d95c18e9444dc2652"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36d25a48eb418942c83a78d1ef1c95f6" id="r_a36d25a48eb418942c83a78d1ef1c95f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36d25a48eb418942c83a78d1ef1c95f6">save</a> () override</td></tr>
-<tr class="separator:a36d25a48eb418942c83a78d1ef1c95f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaba259c157c4846093cd7f6ffb32818d" id="r_aaba259c157c4846093cd7f6ffb32818d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba259c157c4846093cd7f6ffb32818d">isExist</a> (QString title) override</td></tr>
-<tr class="separator:aaba259c157c4846093cd7f6ffb32818d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0022f781ff4d5f9790523c0b2b287dec" id="r_a0022f781ff4d5f9790523c0b2b287dec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0022f781ff4d5f9790523c0b2b287dec">writeLog</a> (const QString &amp;message)</td></tr>
-<tr class="separator:a0022f781ff4d5f9790523c0b2b287dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84db13dd1ec6e7f2dbae29a297b3ba83" id="r_a84db13dd1ec6e7f2dbae29a297b3ba83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84db13dd1ec6e7f2dbae29a297b3ba83">getNote</a> (int i) override</td></tr>
-<tr class="separator:a84db13dd1ec6e7f2dbae29a297b3ba83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75d5c6af71d3952b661231b17669ada1" id="r_a75d5c6af71d3952b661231b17669ada1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75d5c6af71d3952b661231b17669ada1">getLenght</a> () override</td></tr>
-<tr class="separator:a75d5c6af71d3952b661231b17669ada1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a5bb2d4ff6a68b88312f19a59d7bce98e" id="r_a5bb2d4ff6a68b88312f19a59d7bce98e"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_note.html">Note</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bb2d4ff6a68b88312f19a59d7bce98e">list</a></td></tr>
-<tr class="separator:a5bb2d4ff6a68b88312f19a59d7bce98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab282e6ab7cdfbe11054f2fde54e2edc5" id="r_ab282e6ab7cdfbe11054f2fde54e2edc5"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_note.html">Note</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab282e6ab7cdfbe11054f2fde54e2edc5">list</a></td></tr>
+<tr class="separator:ab282e6ab7cdfbe11054f2fde54e2edc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Патерн Proxy. Керує нотатками в пам'яті програми </p>
 
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8h_source.html#l00017">17</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8h_source.html">realnotemanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8h_source.html#l00017">17</a> of file <a class="el" href="realnotemanager_8h_source.html">realnotemanager.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aea0c6e94f034aba757546f783e983c94" name="aea0c6e94f034aba757546f783e983c94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea0c6e94f034aba757546f783e983c94">&#9670;&#160;</a></span>RealNoteManager() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aea0c6e94f034aba757546f783e983c94">&#9670;&#160;</a></span>RealNoteManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,12 +153,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html#l00003">3</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8cpp_source.html#l00003">3</a> of file <a class="el" href="realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a4b753b338e9f92fdce5670b5fdfbf85a" name="a4b753b338e9f92fdce5670b5fdfbf85a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b753b338e9f92fdce5670b5fdfbf85a">&#9670;&#160;</a></span>~RealNoteManager() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b753b338e9f92fdce5670b5fdfbf85a">&#9670;&#160;</a></span>~RealNoteManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,115 +172,13 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html#l00007">7</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
-
-</div>
-</div>
-<a id="aea0c6e94f034aba757546f783e983c94" name="aea0c6e94f034aba757546f783e983c94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea0c6e94f034aba757546f783e983c94">&#9670;&#160;</a></span>RealNoteManager() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">RealNoteManager::RealNoteManager </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4b753b338e9f92fdce5670b5fdfbf85a" name="a4b753b338e9f92fdce5670b5fdfbf85a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b753b338e9f92fdce5670b5fdfbf85a">&#9670;&#160;</a></span>~RealNoteManager() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">RealNoteManager::~RealNoteManager </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aea0c6e94f034aba757546f783e983c94" name="aea0c6e94f034aba757546f783e983c94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea0c6e94f034aba757546f783e983c94">&#9670;&#160;</a></span>RealNoteManager() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">RealNoteManager::RealNoteManager </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4b753b338e9f92fdce5670b5fdfbf85a" name="a4b753b338e9f92fdce5670b5fdfbf85a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b753b338e9f92fdce5670b5fdfbf85a">&#9670;&#160;</a></span>~RealNoteManager() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">RealNoteManager::~RealNoteManager </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aea0c6e94f034aba757546f783e983c94" name="aea0c6e94f034aba757546f783e983c94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea0c6e94f034aba757546f783e983c94">&#9670;&#160;</a></span>RealNoteManager() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">RealNoteManager::RealNoteManager </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4b753b338e9f92fdce5670b5fdfbf85a" name="a4b753b338e9f92fdce5670b5fdfbf85a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b753b338e9f92fdce5670b5fdfbf85a">&#9670;&#160;</a></span>~RealNoteManager() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">RealNoteManager::~RealNoteManager </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8cpp_source.html#l00007">7</a> of file <a class="el" href="realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2b824d9f3608769b6a1bf8a979d9be53" name="a2b824d9f3608769b6a1bf8a979d9be53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b824d9f3608769b6a1bf8a979d9be53">&#9670;&#160;</a></span>changeNote() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b824d9f3608769b6a1bf8a979d9be53">&#9670;&#160;</a></span>changeNote()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,107 +204,23 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_note_manager.html#abbe70fff291cfb7992facc472960b6de">NoteManager</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html#l00028">28</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a2b824d9f3608769b6a1bf8a979d9be53" name="a2b824d9f3608769b6a1bf8a979d9be53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b824d9f3608769b6a1bf8a979d9be53">&#9670;&#160;</a></span>changeNote() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::changeNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>text</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Changes the text content of a note with the specified title. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note to change. </td></tr>
+    <tr><td class="paramname">text</td><td>The new text content of the note. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="class_note_manager.html#abbe70fff291cfb7992facc472960b6de">NoteManager</a>.</p>
 
-</div>
-</div>
-<a id="a2b824d9f3608769b6a1bf8a979d9be53" name="a2b824d9f3608769b6a1bf8a979d9be53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b824d9f3608769b6a1bf8a979d9be53">&#9670;&#160;</a></span>changeNote() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::changeNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>text</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#abbe70fff291cfb7992facc472960b6de">NoteManager</a>.</p>
-
-</div>
-</div>
-<a id="a2b824d9f3608769b6a1bf8a979d9be53" name="a2b824d9f3608769b6a1bf8a979d9be53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b824d9f3608769b6a1bf8a979d9be53">&#9670;&#160;</a></span>changeNote() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::changeNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>text</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#abbe70fff291cfb7992facc472960b6de">NoteManager</a>.</p>
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8cpp_source.html#l00028">28</a> of file <a class="el" href="realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
 
 </div>
 </div>
 <a id="aef5a3247acf60484550fe44561a5e84e" name="aef5a3247acf60484550fe44561a5e84e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef5a3247acf60484550fe44561a5e84e">&#9670;&#160;</a></span>deleteNote() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aef5a3247acf60484550fe44561a5e84e">&#9670;&#160;</a></span>deleteNote()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -494,151 +242,22 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_note_manager.html#a6d49cf54d61a52d983c2fa75e3140dd8">NoteManager</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html#l00017">17</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
-
-</div>
-</div>
-<a id="aef5a3247acf60484550fe44561a5e84e" name="aef5a3247acf60484550fe44561a5e84e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef5a3247acf60484550fe44561a5e84e">&#9670;&#160;</a></span>deleteNote() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::deleteNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Deletes a note with the specified title. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note to delete. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="class_note_manager.html#a6d49cf54d61a52d983c2fa75e3140dd8">NoteManager</a>.</p>
 
-</div>
-</div>
-<a id="aef5a3247acf60484550fe44561a5e84e" name="aef5a3247acf60484550fe44561a5e84e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef5a3247acf60484550fe44561a5e84e">&#9670;&#160;</a></span>deleteNote() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::deleteNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#a6d49cf54d61a52d983c2fa75e3140dd8">NoteManager</a>.</p>
-
-</div>
-</div>
-<a id="aef5a3247acf60484550fe44561a5e84e" name="aef5a3247acf60484550fe44561a5e84e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef5a3247acf60484550fe44561a5e84e">&#9670;&#160;</a></span>deleteNote() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::deleteNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#a6d49cf54d61a52d983c2fa75e3140dd8">NoteManager</a>.</p>
-
-</div>
-</div>
-<a id="a75d5c6af71d3952b661231b17669ada1" name="a75d5c6af71d3952b661231b17669ada1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75d5c6af71d3952b661231b17669ada1">&#9670;&#160;</a></span>getLenght() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int RealNoteManager::getLenght </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#a99bf327df325ea3b1f3f59ae4ac8806e">NoteManager</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html#l00051">51</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a75d5c6af71d3952b661231b17669ada1" name="a75d5c6af71d3952b661231b17669ada1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75d5c6af71d3952b661231b17669ada1">&#9670;&#160;</a></span>getLenght() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int RealNoteManager::getLenght </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#a99bf327df325ea3b1f3f59ae4ac8806e">NoteManager</a>.</p>
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8cpp_source.html#l00017">17</a> of file <a class="el" href="realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
 
 </div>
 </div>
 <a id="ad38daf2f2455471f0b716b63bd615ea8" name="ad38daf2f2455471f0b716b63bd615ea8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad38daf2f2455471f0b716b63bd615ea8">&#9670;&#160;</a></span>getLength() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad38daf2f2455471f0b716b63bd615ea8">&#9670;&#160;</a></span>getLength()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -665,42 +284,12 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="class_note_manager.html#afccd8658ca1502b1fee1046d186bf135">NoteManager</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2realnotemanager_8cpp_source.html#l00051">51</a> of file <a class="el" href="_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ad38daf2f2455471f0b716b63bd615ea8" name="ad38daf2f2455471f0b716b63bd615ea8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad38daf2f2455471f0b716b63bd615ea8">&#9670;&#160;</a></span>getLength() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int RealNoteManager::getLength </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the total number of notes. </p>
-<dl class="section return"><dt>Returns</dt><dd>The total number of notes. </dd></dl>
-
-<p>Implements <a class="el" href="class_note_manager.html#afccd8658ca1502b1fee1046d186bf135">NoteManager</a>.</p>
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8cpp_source.html#l00051">51</a> of file <a class="el" href="realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a84db13dd1ec6e7f2dbae29a297b3ba83" name="a84db13dd1ec6e7f2dbae29a297b3ba83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84db13dd1ec6e7f2dbae29a297b3ba83">&#9670;&#160;</a></span>getNote() <span class="overload">[1/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a84db13dd1ec6e7f2dbae29a297b3ba83">&#9670;&#160;</a></span>getNote() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -722,95 +311,23 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_note_manager.html#ab9f59ad214a233cd9734707dc9a46680">NoteManager</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html#l00139">139</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a84db13dd1ec6e7f2dbae29a297b3ba83" name="a84db13dd1ec6e7f2dbae29a297b3ba83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84db13dd1ec6e7f2dbae29a297b3ba83">&#9670;&#160;</a></span>getNote() <span class="overload">[2/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_note.html">Note</a> RealNoteManager::getNote </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Gets the note at the specified index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>The index of the note to retrieve. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The note at the specified index. </dd></dl>
 
 <p>Implements <a class="el" href="class_note_manager.html#ab9f59ad214a233cd9734707dc9a46680">NoteManager</a>.</p>
 
-</div>
-</div>
-<a id="a84db13dd1ec6e7f2dbae29a297b3ba83" name="a84db13dd1ec6e7f2dbae29a297b3ba83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84db13dd1ec6e7f2dbae29a297b3ba83">&#9670;&#160;</a></span>getNote() <span class="overload">[3/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_note.html">Note</a> RealNoteManager::getNote </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#ab9f59ad214a233cd9734707dc9a46680">NoteManager</a>.</p>
-
-</div>
-</div>
-<a id="a84db13dd1ec6e7f2dbae29a297b3ba83" name="a84db13dd1ec6e7f2dbae29a297b3ba83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84db13dd1ec6e7f2dbae29a297b3ba83">&#9670;&#160;</a></span>getNote() <span class="overload">[4/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_note.html">Note</a> RealNoteManager::getNote </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#ab9f59ad214a233cd9734707dc9a46680">NoteManager</a>.</p>
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8cpp_source.html#l00139">139</a> of file <a class="el" href="realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a9d296d28023bd14af34e1554a40db6c8" name="a9d296d28023bd14af34e1554a40db6c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d296d28023bd14af34e1554a40db6c8">&#9670;&#160;</a></span>getNote() <span class="overload">[5/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d296d28023bd14af34e1554a40db6c8">&#9670;&#160;</a></span>getNote() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -832,95 +349,23 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_note_manager.html#a5aeeac6ec5754334d0f809f8332e15b5">NoteManager</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html#l00040">40</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a9d296d28023bd14af34e1554a40db6c8" name="a9d296d28023bd14af34e1554a40db6c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d296d28023bd14af34e1554a40db6c8">&#9670;&#160;</a></span>getNote() <span class="overload">[6/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_note.html">Note</a> RealNoteManager::getNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Gets the note with the specified title. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note to retrieve. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The note with the specified title. </dd></dl>
 
 <p>Implements <a class="el" href="class_note_manager.html#a5aeeac6ec5754334d0f809f8332e15b5">NoteManager</a>.</p>
 
-</div>
-</div>
-<a id="a9d296d28023bd14af34e1554a40db6c8" name="a9d296d28023bd14af34e1554a40db6c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d296d28023bd14af34e1554a40db6c8">&#9670;&#160;</a></span>getNote() <span class="overload">[7/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_note.html">Note</a> RealNoteManager::getNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#a5aeeac6ec5754334d0f809f8332e15b5">NoteManager</a>.</p>
-
-</div>
-</div>
-<a id="a9d296d28023bd14af34e1554a40db6c8" name="a9d296d28023bd14af34e1554a40db6c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d296d28023bd14af34e1554a40db6c8">&#9670;&#160;</a></span>getNote() <span class="overload">[8/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_note.html">Note</a> RealNoteManager::getNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#a5aeeac6ec5754334d0f809f8332e15b5">NoteManager</a>.</p>
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8cpp_source.html#l00040">40</a> of file <a class="el" href="realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
 
 </div>
 </div>
 <a id="aaba259c157c4846093cd7f6ffb32818d" name="aaba259c157c4846093cd7f6ffb32818d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaba259c157c4846093cd7f6ffb32818d">&#9670;&#160;</a></span>isExist() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba259c157c4846093cd7f6ffb32818d">&#9670;&#160;</a></span>isExist()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -942,95 +387,23 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_note_manager.html#a593e9ab512bcf6db1e7559740d9a0417">NoteManager</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html#l00128">128</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
-
-</div>
-</div>
-<a id="aaba259c157c4846093cd7f6ffb32818d" name="aaba259c157c4846093cd7f6ffb32818d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaba259c157c4846093cd7f6ffb32818d">&#9670;&#160;</a></span>isExist() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool RealNoteManager::isExist </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Checks if a note with the specified title exists. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the note exists, otherwise false. </dd></dl>
 
 <p>Implements <a class="el" href="class_note_manager.html#a593e9ab512bcf6db1e7559740d9a0417">NoteManager</a>.</p>
 
-</div>
-</div>
-<a id="aaba259c157c4846093cd7f6ffb32818d" name="aaba259c157c4846093cd7f6ffb32818d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaba259c157c4846093cd7f6ffb32818d">&#9670;&#160;</a></span>isExist() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool RealNoteManager::isExist </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#a593e9ab512bcf6db1e7559740d9a0417">NoteManager</a>.</p>
-
-</div>
-</div>
-<a id="aaba259c157c4846093cd7f6ffb32818d" name="aaba259c157c4846093cd7f6ffb32818d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaba259c157c4846093cd7f6ffb32818d">&#9670;&#160;</a></span>isExist() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool RealNoteManager::isExist </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#a593e9ab512bcf6db1e7559740d9a0417">NoteManager</a>.</p>
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8cpp_source.html#l00128">128</a> of file <a class="el" href="realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a4cb79fa0f84a8d3d95c18e9444dc2652" name="a4cb79fa0f84a8d3d95c18e9444dc2652"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cb79fa0f84a8d3d95c18e9444dc2652">&#9670;&#160;</a></span>load() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cb79fa0f84a8d3d95c18e9444dc2652">&#9670;&#160;</a></span>load()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1052,95 +425,16 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_note_manager.html#a65c97b64885936a3b792419204f6d012">NoteManager</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html#l00056">56</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a4cb79fa0f84a8d3d95c18e9444dc2652" name="a4cb79fa0f84a8d3d95c18e9444dc2652"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cb79fa0f84a8d3d95c18e9444dc2652">&#9670;&#160;</a></span>load() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::load </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Loads notes from storage. </p>
 
 <p>Implements <a class="el" href="class_note_manager.html#a65c97b64885936a3b792419204f6d012">NoteManager</a>.</p>
 
-</div>
-</div>
-<a id="a4cb79fa0f84a8d3d95c18e9444dc2652" name="a4cb79fa0f84a8d3d95c18e9444dc2652"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cb79fa0f84a8d3d95c18e9444dc2652">&#9670;&#160;</a></span>load() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::load </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#a65c97b64885936a3b792419204f6d012">NoteManager</a>.</p>
-
-</div>
-</div>
-<a id="a4cb79fa0f84a8d3d95c18e9444dc2652" name="a4cb79fa0f84a8d3d95c18e9444dc2652"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cb79fa0f84a8d3d95c18e9444dc2652">&#9670;&#160;</a></span>load() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::load </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#a65c97b64885936a3b792419204f6d012">NoteManager</a>.</p>
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8cpp_source.html#l00056">56</a> of file <a class="el" href="realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a36d25a48eb418942c83a78d1ef1c95f6" name="a36d25a48eb418942c83a78d1ef1c95f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36d25a48eb418942c83a78d1ef1c95f6">&#9670;&#160;</a></span>save() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d25a48eb418942c83a78d1ef1c95f6">&#9670;&#160;</a></span>save()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1162,95 +456,16 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_note_manager.html#a258442f7b1316e140451bed57f79329d">NoteManager</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html#l00099">99</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a36d25a48eb418942c83a78d1ef1c95f6" name="a36d25a48eb418942c83a78d1ef1c95f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36d25a48eb418942c83a78d1ef1c95f6">&#9670;&#160;</a></span>save() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::save </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Saves notes to storage. </p>
 
 <p>Implements <a class="el" href="class_note_manager.html#a258442f7b1316e140451bed57f79329d">NoteManager</a>.</p>
 
-</div>
-</div>
-<a id="a36d25a48eb418942c83a78d1ef1c95f6" name="a36d25a48eb418942c83a78d1ef1c95f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36d25a48eb418942c83a78d1ef1c95f6">&#9670;&#160;</a></span>save() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::save </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#a258442f7b1316e140451bed57f79329d">NoteManager</a>.</p>
-
-</div>
-</div>
-<a id="a36d25a48eb418942c83a78d1ef1c95f6" name="a36d25a48eb418942c83a78d1ef1c95f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36d25a48eb418942c83a78d1ef1c95f6">&#9670;&#160;</a></span>save() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::save </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#a258442f7b1316e140451bed57f79329d">NoteManager</a>.</p>
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8cpp_source.html#l00099">99</a> of file <a class="el" href="realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a33cf1e77bfa88dea21ab4c65a6dc3da9" name="a33cf1e77bfa88dea21ab4c65a6dc3da9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33cf1e77bfa88dea21ab4c65a6dc3da9">&#9670;&#160;</a></span>saveNote() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a33cf1e77bfa88dea21ab4c65a6dc3da9">&#9670;&#160;</a></span>saveNote()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1281,157 +496,25 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_note_manager.html#af6e8b566f7e4fe289d45f21bc93d968b">NoteManager</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html#l00012">12</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a33cf1e77bfa88dea21ab4c65a6dc3da9" name="a33cf1e77bfa88dea21ab4c65a6dc3da9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33cf1e77bfa88dea21ab4c65a6dc3da9">&#9670;&#160;</a></span>saveNote() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::saveNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>text</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>date_time</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Saves a note with the specified title, text, and date. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note. </td></tr>
+    <tr><td class="paramname">text</td><td>The text content of the note. </td></tr>
+    <tr><td class="paramname">date_time</td><td>The date and time of the note. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="class_note_manager.html#af6e8b566f7e4fe289d45f21bc93d968b">NoteManager</a>.</p>
 
-</div>
-</div>
-<a id="a33cf1e77bfa88dea21ab4c65a6dc3da9" name="a33cf1e77bfa88dea21ab4c65a6dc3da9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33cf1e77bfa88dea21ab4c65a6dc3da9">&#9670;&#160;</a></span>saveNote() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::saveNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>text</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>date_time</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#af6e8b566f7e4fe289d45f21bc93d968b">NoteManager</a>.</p>
-
-</div>
-</div>
-<a id="a33cf1e77bfa88dea21ab4c65a6dc3da9" name="a33cf1e77bfa88dea21ab4c65a6dc3da9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33cf1e77bfa88dea21ab4c65a6dc3da9">&#9670;&#160;</a></span>saveNote() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::saveNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>text</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>date_time</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_note_manager.html#af6e8b566f7e4fe289d45f21bc93d968b">NoteManager</a>.</p>
-
-</div>
-</div>
-<a id="a0022f781ff4d5f9790523c0b2b287dec" name="a0022f781ff4d5f9790523c0b2b287dec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0022f781ff4d5f9790523c0b2b287dec">&#9670;&#160;</a></span>writeLog() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::writeLog </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0022f781ff4d5f9790523c0b2b287dec" name="a0022f781ff4d5f9790523c0b2b287dec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0022f781ff4d5f9790523c0b2b287dec">&#9670;&#160;</a></span>writeLog() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RealNoteManager::writeLog </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8cpp_source.html#l00012">12</a> of file <a class="el" href="realnotemanager_8cpp_source.html">realnotemanager.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5bb2d4ff6a68b88312f19a59d7bce98e" name="a5bb2d4ff6a68b88312f19a59d7bce98e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bb2d4ff6a68b88312f19a59d7bce98e">&#9670;&#160;</a></span>list</h2>
+<a id="ab282e6ab7cdfbe11054f2fde54e2edc5" name="ab282e6ab7cdfbe11054f2fde54e2edc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab282e6ab7cdfbe11054f2fde54e2edc5">&#9670;&#160;</a></span>list</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1440,7 +523,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QList&lt; <a class="el" href="class_note.html">Note</a> &gt; * RealNoteManager::list</td>
+          <td class="memname">QList&lt;<a class="el" href="class_note.html">Note</a>&gt;* RealNoteManager::list</td>
         </tr>
       </table>
   </td>
@@ -1450,19 +533,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2realnotemanager_8h_source.html#l00035">35</a> of file <a class="el" href="_my_notes_maker_2realnotemanager_8h_source.html">realnotemanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="realnotemanager_8h_source.html#l00034">34</a> of file <a class="el" href="realnotemanager_8h_source.html">realnotemanager.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>MyNotesMaker/<a class="el" href="_my_notes_maker_2realnotemanager_8h_source.html">realnotemanager.h</a></li>
-<li>OOOP/MyNotesMaker/MyNotesMaker/<a class="el" href="_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2realnotemanager_8h_source.html">realnotemanager.h</a></li>
-<li>qt/OOOP/MyNotesMaker/MyNotesMaker/<a class="el" href="qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2realnotemanager_8h_source.html">realnotemanager.h</a></li>
-<li>task/OOOP/MyNotesMaker/MyNotesMaker/<a class="el" href="task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2realnotemanager_8h_source.html">realnotemanager.h</a></li>
-<li>MyNotesMaker/<a class="el" href="_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a></li>
-<li>OOOP/MyNotesMaker/MyNotesMaker/<a class="el" href="_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a></li>
-<li>qt/OOOP/MyNotesMaker/MyNotesMaker/<a class="el" href="qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a></li>
-<li>task/OOOP/MyNotesMaker/MyNotesMaker/<a class="el" href="task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2realnotemanager_8cpp_source.html">realnotemanager.cpp</a></li>
+<li>MyNotesMaker/<a class="el" href="realnotemanager_8h_source.html">realnotemanager.h</a></li>
+<li>MyNotesMaker/<a class="el" href="realnotemanager_8cpp_source.html">realnotemanager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

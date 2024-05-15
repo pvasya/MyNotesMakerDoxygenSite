@@ -1,20 +1,6 @@
 var searchData=
 [
-  ['e_0',['e',['../structdetail_1_1dtoa__impl_1_1diyfp.html#ae2b59fab8dee9ef0192eb6b568fa7314',1,'detail::dtoa_impl::diyfp::e'],['../structdetail_1_1dtoa__impl_1_1cached__power.html#a96cc75e988a7e08e2de93db20024e7df',1,'detail::dtoa_impl::cached_power::e']]],
-  ['edit_1',['edit',['../classopenai_1_1__detail_1_1_open_a_i.html#a073d4cfec6c97bcbe9813d70f753b7f3',1,'openai::_detail::OpenAI']]],
-  ['elegantdark_2',['elegantdark',['../class_ui___settings_widget.html#a2a16d3f775eae9c4e3b22a7fff828dfa',1,'Ui_SettingsWidget']]],
-  ['elements_3',['elements',['../class_dynamic_array_priority_queue.html#a9a81c12691f1fd3bf1c1953aa6774d02',1,'DynamicArrayPriorityQueue']]],
-  ['else_4',['else',['../classdetail_1_1serializer.html#a1cef7f1e504d729887dc828910497cd2',1,'detail::serializer']]],
-  ['embedding_5',['embedding',['../classopenai_1_1__detail_1_1_open_a_i.html#a04e65bac9684b45694e94e8a89eb89b0',1,'openai::_detail::OpenAI']]],
-  ['empty_5fstr_6',['empty_str',['../classdetail_1_1iteration__proxy__value.html#a5236087d3cfc2d7cefb42629739bc23a',1,'detail::iteration_proxy_value']]],
-  ['end_7',['end',['../classdetail_1_1iterator__input__adapter.html#a06b072f92b4626d7e3774bb9dba39a2d',1,'detail::iterator_input_adapter']]],
-  ['end_5fvalue_8',['end_value',['../classdetail_1_1primitive__iterator__t.html#a6b854cbed27a8d0860cc77a29be574e1',1,'detail::primitive_iterator_t']]],
-  ['ensure_5fascii_9',['ensure_ascii',['../classdetail_1_1serializer.html#a414071fcc39c97fa8e64455a222d8d08',1,'detail::serializer']]],
-  ['error_5fhandler_10',['error_handler',['../classdetail_1_1serializer.html#a79d25c7416dd71a0db8b10988ec360f7',1,'detail::serializer']]],
-  ['error_5fmessage_11',['error_message',['../classdetail_1_1lexer.html#a7f37fab1543db7c9681bda8d72b1688c',1,'detail::lexer::error_message'],['../structopenai_1_1__detail_1_1_response.html#a78a000feb126ccc6c66ab783461468b4',1,'openai::_detail::Response::error_message']]],
-  ['error_5fstring_12',['error_string',['../structdoctest_1_1_test_case_exception.html#a656c8971ccbedc7d3a0a38f7c6af927e',1,'doctest::TestCaseException']]],
-  ['errored_13',['errored',['../classdetail_1_1json__sax__dom__parser.html#a132be8ae1df3f2f2bba3f38cf707c17d',1,'detail::json_sax_dom_parser::errored'],['../classdetail_1_1json__sax__dom__callback__parser.html#a3a08271b55be56a348dfafce4d0fce4e',1,'detail::json_sax_dom_callback_parser::errored']]],
-  ['exit_14',['exit',['../structdoctest_1_1_context_options.html#a85d785559ea88e0bd61890f77f00a82f',1,'doctest::ContextOptions']]],
-  ['exportbtn_15',['exportBtn',['../class_ui___main_window.html#ad2b4ee076ac25df1fdc182472e8bd66a',1,'Ui_MainWindow']]],
-  ['exporter_16',['exporter',['../class_export_context.html#ab090cb340bb7a72fe973b885d968aa54',1,'ExportContext::exporter'],['../class_main_window.html#a46607f1e1fa77c4dcc42a9bfa0fc3a4e',1,'MainWindow::exporter']]]
+  ['elegantdark_0',['elegantdark',['../class_ui___settings_widget.html#a2a16d3f775eae9c4e3b22a7fff828dfa',1,'Ui_SettingsWidget']]],
+  ['exportbtn_1',['exportBtn',['../class_ui___main_window.html#ad2b4ee076ac25df1fdc182472e8bd66a',1,'Ui_MainWindow']]],
+  ['exporter_2',['exporter',['../class_export_context.html#ab0d51b0ad6a822af0787864f56b1b072',1,'ExportContext::exporter'],['../class_main_window.html#aae5db0bed31e2251449c10d64408314d',1,'MainWindow::exporter']]]
 ];

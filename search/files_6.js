@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['export_2eh_0',['export.h',['../_my_notes_maker_2_export_strategy_2export_8h.html',1,'(Global Namespace)'],['../_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_export_strategy_2export_8h.html',1,'(Global Namespace)'],['../qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_export_strategy_2export_8h.html',1,'(Global Namespace)'],['../task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_export_strategy_2export_8h.html',1,'(Global Namespace)']]],
-  ['exportcontext_2ecpp_1',['exportcontext.cpp',['../_my_notes_maker_2_export_strategy_2exportcontext_8cpp.html',1,'(Global Namespace)'],['../_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_export_strategy_2exportcontext_8cpp.html',1,'(Global Namespace)'],['../qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_export_strategy_2exportcontext_8cpp.html',1,'(Global Namespace)'],['../task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_export_strategy_2exportcontext_8cpp.html',1,'(Global Namespace)']]],
-  ['exportcontext_2eh_2',['exportcontext.h',['../_my_notes_maker_2_export_strategy_2exportcontext_8h.html',1,'(Global Namespace)'],['../_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_export_strategy_2exportcontext_8h.html',1,'(Global Namespace)'],['../qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_export_strategy_2exportcontext_8h.html',1,'(Global Namespace)'],['../task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_export_strategy_2exportcontext_8h.html',1,'(Global Namespace)']]]
+  ['html_2ecpp_0',['html.cpp',['../html_8cpp.html',1,'']]],
+  ['html_2eh_1',['html.h',['../html_8h.html',1,'']]]
 ];

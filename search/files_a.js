@@ -1,7 +1,23 @@
 var searchData=
 [
-  ['invoker_2ecpp_0',['invoker.cpp',['../_my_notes_maker_2_formatting_command_2invoker_8cpp.html',1,'(Global Namespace)'],['../_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_formatting_command_2invoker_8cpp.html',1,'(Global Namespace)'],['../qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_formatting_command_2invoker_8cpp.html',1,'(Global Namespace)'],['../task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_formatting_command_2invoker_8cpp.html',1,'(Global Namespace)']]],
-  ['invoker_2eh_1',['invoker.h',['../_my_notes_maker_2_formatting_command_2invoker_8h.html',1,'(Global Namespace)'],['../_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_formatting_command_2invoker_8h.html',1,'(Global Namespace)'],['../qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_formatting_command_2invoker_8h.html',1,'(Global Namespace)'],['../task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_formatting_command_2invoker_8h.html',1,'(Global Namespace)']]],
-  ['italic_2ecpp_2',['italic.cpp',['../_my_notes_maker_2_formatting_command_2italic_8cpp.html',1,'(Global Namespace)'],['../_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_formatting_command_2italic_8cpp.html',1,'(Global Namespace)'],['../qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_formatting_command_2italic_8cpp.html',1,'(Global Namespace)'],['../task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_formatting_command_2italic_8cpp.html',1,'(Global Namespace)']]],
-  ['italic_2eh_3',['italic.h',['../_my_notes_maker_2_formatting_command_2italic_8h.html',1,'(Global Namespace)'],['../_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_formatting_command_2italic_8h.html',1,'(Global Namespace)'],['../qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_formatting_command_2italic_8h.html',1,'(Global Namespace)'],['../task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_formatting_command_2italic_8h.html',1,'(Global Namespace)']]]
+  ['panelbottomside_2ecpp_0',['PanelBottomSide.cpp',['../_panel_bottom_side_8cpp.html',1,'']]],
+  ['panelbottomside_2ehpp_1',['PanelBottomSide.hpp',['../_panel_bottom_side_8hpp.html',1,'']]],
+  ['panelleftside_2ecpp_2',['PanelLeftSide.cpp',['../_panel_left_side_8cpp.html',1,'']]],
+  ['panelleftside_2ehpp_3',['PanelLeftSide.hpp',['../_panel_left_side_8hpp.html',1,'']]],
+  ['panelrightside_2ecpp_4',['PanelRightSide.cpp',['../_panel_right_side_8cpp.html',1,'']]],
+  ['panelrightside_2ehpp_5',['PanelRightSide.hpp',['../_panel_right_side_8hpp.html',1,'']]],
+  ['paneltopside_2ecpp_6',['PanelTopSide.cpp',['../_panel_top_side_8cpp.html',1,'']]],
+  ['paneltopside_2ehpp_7',['PanelTopSide.hpp',['../_panel_top_side_8hpp.html',1,'']]],
+  ['particle_2ecpp_8',['particle.cpp',['../particle_8cpp.html',1,'']]],
+  ['particle_2eh_9',['particle.h',['../particle_8h.html',1,'']]],
+  ['particlefactory_2ecpp_10',['particlefactory.cpp',['../particlefactory_8cpp.html',1,'']]],
+  ['particlefactory_2eh_11',['particlefactory.h',['../particlefactory_8h.html',1,'']]],
+  ['particlelifewidget_2ecpp_12',['particlelifewidget.cpp',['../particlelifewidget_8cpp.html',1,'']]],
+  ['particlelifewidget_2eh_13',['particlelifewidget.h',['../particlelifewidget_8h.html',1,'']]],
+  ['particleworker_2ecpp_14',['particleworker.cpp',['../particleworker_8cpp.html',1,'']]],
+  ['particleworker_2eh_15',['particleworker.h',['../particleworker_8h.html',1,'']]],
+  ['pdf_2ecpp_16',['pdf.cpp',['../pdf_8cpp.html',1,'']]],
+  ['pdf_2eh_17',['pdf.h',['../pdf_8h.html',1,'']]],
+  ['proxynotemanager_2ecpp_18',['proxynotemanager.cpp',['../proxynotemanager_8cpp.html',1,'']]],
+  ['proxynotemanager_2eh_19',['proxynotemanager.h',['../proxynotemanager_8h.html',1,'']]]
 ];

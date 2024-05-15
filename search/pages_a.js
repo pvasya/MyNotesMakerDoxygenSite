@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['readme_0',['README',['../md__my_notes_maker_2_r_e_a_d_m_e.html',1,'README'],['../md__o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_r_e_a_d_m_e.html',1,'README'],['../md__o_o_o_p_2_my_notes_maker_2_r_e_a_d_m_e.html',1,'README'],['../md__o_o_o_p_2_u_m_l_2_u_m_l_01diagrams_2_r_e_a_d_m_e.html',1,'README'],['../md_qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_r_e_a_d_m_e.html',1,'README'],['../md_qt_2_o_o_o_p_2_my_notes_maker_2_r_e_a_d_m_e.html',1,'README'],['../md_qt_2_o_o_o_p_2_u_m_l_2_u_m_l_01diagrams_2_r_e_a_d_m_e.html',1,'README'],['../md_task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_r_e_a_d_m_e.html',1,'README'],['../md_task_2_o_o_o_p_2_my_notes_maker_2_r_e_a_d_m_e.html',1,'README'],['../md_task_2_o_o_o_p_2_u_m_l_2_u_m_l_01diagrams_2_r_e_a_d_m_e.html',1,'README']]]
-];
