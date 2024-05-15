@@ -2,7 +2,7 @@ var searchData=
 [
   ['e_0',['e',['../structdetail_1_1dtoa__impl_1_1diyfp.html#ae2b59fab8dee9ef0192eb6b568fa7314',1,'detail::dtoa_impl::diyfp::e'],['../structdetail_1_1dtoa__impl_1_1cached__power.html#a96cc75e988a7e08e2de93db20024e7df',1,'detail::dtoa_impl::cached_power::e']]],
   ['edit_1',['edit',['../classopenai_1_1__detail_1_1_open_a_i.html#a073d4cfec6c97bcbe9813d70f753b7f3',1,'openai::_detail::OpenAI']]],
-  ['elegantdark_2',['elegantdark',['../class_ui___settings_widget.html#a06518313fb32b5be1f11e94fc6347c62',1,'Ui_SettingsWidget']]],
+  ['elegantdark_2',['elegantdark',['../class_ui___settings_widget.html#a2a16d3f775eae9c4e3b22a7fff828dfa',1,'Ui_SettingsWidget']]],
   ['elements_3',['elements',['../class_dynamic_array_priority_queue.html#a9a81c12691f1fd3bf1c1953aa6774d02',1,'DynamicArrayPriorityQueue']]],
   ['else_4',['else',['../classdetail_1_1serializer.html#a1cef7f1e504d729887dc828910497cd2',1,'detail::serializer']]],
   ['embedding_5',['embedding',['../classopenai_1_1__detail_1_1_open_a_i.html#a04e65bac9684b45694e94e8a89eb89b0',1,'openai::_detail::OpenAI']]],
@@ -15,6 +15,6 @@ var searchData=
   ['error_5fstring_12',['error_string',['../structdoctest_1_1_test_case_exception.html#a656c8971ccbedc7d3a0a38f7c6af927e',1,'doctest::TestCaseException']]],
   ['errored_13',['errored',['../classdetail_1_1json__sax__dom__parser.html#a132be8ae1df3f2f2bba3f38cf707c17d',1,'detail::json_sax_dom_parser::errored'],['../classdetail_1_1json__sax__dom__callback__parser.html#a3a08271b55be56a348dfafce4d0fce4e',1,'detail::json_sax_dom_callback_parser::errored']]],
   ['exit_14',['exit',['../structdoctest_1_1_context_options.html#a85d785559ea88e0bd61890f77f00a82f',1,'doctest::ContextOptions']]],
-  ['exportbtn_15',['exportBtn',['../class_ui___main_window.html#ab62806b90a603011c53d3e3c375cdd6d',1,'Ui_MainWindow']]],
+  ['exportbtn_15',['exportBtn',['../class_ui___main_window.html#ad2b4ee076ac25df1fdc182472e8bd66a',1,'Ui_MainWindow']]],
   ['exporter_16',['exporter',['../class_export_context.html#ab090cb340bb7a72fe973b885d968aa54',1,'ExportContext::exporter'],['../class_main_window.html#a46607f1e1fa77c4dcc42a9bfa0fc3a4e',1,'MainWindow::exporter']]]
 ];

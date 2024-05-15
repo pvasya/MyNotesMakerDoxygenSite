@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['namelabel_0',['nameLabel',['../class_ui___main_window.html#a134047926bc9eaff33275117ccbc9c21',1,'Ui_MainWindow']]],
+  ['namelabel_0',['nameLabel',['../class_ui___main_window.html#a452d3a272e20c694efb0254c51783c1c',1,'Ui_MainWindow']]],
   ['need_5fto_5fdestroy_1',['need_to_destroy',['../structdoctest_1_1detail_1_1_context_scope_base.html#a260af2340e01226c6098958ee2b383a2',1,'doctest::detail::ContextScopeBase']]],
-  ['neon_2',['neon',['../class_ui___settings_widget.html#afa3f9eea73992e715b187d426339011e',1,'Ui_SettingsWidget']]],
+  ['neon_2',['neon',['../class_ui___settings_widget.html#a9d7ce417d137e7c0d93f269c2713ad20',1,'Ui_SettingsWidget']]],
   ['new_5fpos_3',['new_pos',['../class_main_window.html#ab0f889b75f6bd7e725a0114b11026981',1,'MainWindow::new_pos'],['../class_history_window.html#a33236ce624c3922777af45c0ed85defb',1,'HistoryWindow::new_pos'],['../class_settings_window.html#aec15a7b44decb5d8b0e91728a38331ba',1,'SettingsWindow::new_pos']]],
   ['next_4',['next',['../struct_linked_list_priority_queue_1_1_node.html#a5c998be2cb53b32c59e99abd3d49687c',1,'LinkedListPriorityQueue::Node']]],
   ['next_5funget_5',['next_unget',['../classdetail_1_1lexer.html#a943e132f61f26a85de9075b457ba56a3',1,'detail::lexer']]],
@@ -19,7 +19,7 @@ var searchData=
   ['no_5fthrow_16',['no_throw',['../structdoctest_1_1_context_options.html#a642d847a76880d946bdd62b35eba3f63',1,'doctest::ContextOptions']]],
   ['no_5ftime_5fin_5foutput_17',['no_time_in_output',['../structdoctest_1_1_context_options.html#a7932d4aa0f360efec8cc201ec63c8366',1,'doctest::ContextOptions']]],
   ['no_5fversion_18',['no_version',['../structdoctest_1_1_context_options.html#ad7371979d5134b109dd00fba771b0271',1,'doctest::ContextOptions']]],
-  ['notelistwidget_19',['noteListWidget',['../class_ui___main_window.html#a1880b0aadf788072ec2bc9ad6fd209a0',1,'Ui_MainWindow']]],
+  ['notelistwidget_19',['noteListWidget',['../class_ui___main_window.html#aff67650481fc1989764cfbe624fdba6f',1,'Ui_MainWindow']]],
   ['npos_20',['npos',['../classdetail_1_1binary__reader.html#a9853508f38bdc65a3fca5c9523395592',1,'detail::binary_reader::npos'],['../classdoctest_1_1_string.html#a054312c2fba6fcb19af924822dd2e682',1,'doctest::String::npos']]],
   ['nullptr_21',['nullptr',['../classjson__pointer.html#ac83389e2672a3e91ce4630fbe0d76c7a',1,'json_pointer']]],
   ['num_5fdata_22',['num_data',['../structdoctest_1_1_query_data.html#af1033338fe975ae3c19b16452401230d',1,'doctest::QueryData']]],
