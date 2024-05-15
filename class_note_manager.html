@@ -22,7 +22,6 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="imgonline-com-ua-Resize-XVqBRNFQ4u.jpg"/></td>
   <td id="projectalign">
    <div id="projectname">MyNotesMaker
    </div>
@@ -82,15 +81,21 @@ $(function() {
 <p>Патерн Proxy. Керує нотатками в пам'яті програми  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="notemanager_8h_source.html">notemanager.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_my_notes_maker_2notemanager_8h_source.html">notemanager.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for NoteManager:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_note_manager.png" usemap="#NoteManager_map" alt=""/>
   <map id="NoteManager_map" name="NoteManager_map">
-<area href="class_proxy_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="ProxyNoteManager" shape="rect" coords="0,56,122,80"/>
-<area href="class_real_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="RealNoteManager" shape="rect" coords="132,56,254,80"/>
+<area href="class_proxy_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="ProxyNoteManager" shape="rect" coords="132,56,254,80"/>
+<area href="class_proxy_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="ProxyNoteManager" shape="rect" coords="132,112,254,136"/>
+<area href="class_proxy_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="ProxyNoteManager" shape="rect" coords="132,168,254,192"/>
+<area href="class_proxy_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="ProxyNoteManager" shape="rect" coords="132,224,254,248"/>
+<area href="class_real_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="RealNoteManager" shape="rect" coords="132,280,254,304"/>
+<area href="class_real_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="RealNoteManager" shape="rect" coords="132,336,254,360"/>
+<area href="class_real_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="RealNoteManager" shape="rect" coords="132,392,254,416"/>
+<area href="class_real_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми" alt="RealNoteManager" shape="rect" coords="132,448,254,472"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -102,14 +107,84 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6d49cf54d61a52d983c2fa75e3140dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9f59ad214a233cd9734707dc9a46680" id="r_ab9f59ad214a233cd9734707dc9a46680"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9f59ad214a233cd9734707dc9a46680">getNote</a> (int i)=0</td></tr>
 <tr class="separator:ab9f59ad214a233cd9734707dc9a46680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8301f09f261df5914c3c03748d2cd533" id="r_a8301f09f261df5914c3c03748d2cd533"><td class="memItemLeft" align="right" valign="top">virtual QPair&lt; QString, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8301f09f261df5914c3c03748d2cd533">getNoteTitleDate</a> (int i)=0</td></tr>
-<tr class="separator:a8301f09f261df5914c3c03748d2cd533"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99bf327df325ea3b1f3f59ae4ac8806e" id="r_a99bf327df325ea3b1f3f59ae4ac8806e"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99bf327df325ea3b1f3f59ae4ac8806e">getLenght</a> ()=0</td></tr>
 <tr class="separator:a99bf327df325ea3b1f3f59ae4ac8806e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe70fff291cfb7992facc472960b6de" id="r_abbe70fff291cfb7992facc472960b6de"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbe70fff291cfb7992facc472960b6de">changeNote</a> (QString title, QString text)=0</td></tr>
 <tr class="separator:abbe70fff291cfb7992facc472960b6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8baa2681b5e9be060143d5f6d812e340" id="r_a8baa2681b5e9be060143d5f6d812e340"><td class="memItemLeft" align="right" valign="top">virtual QPair&lt; QString, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8baa2681b5e9be060143d5f6d812e340">getNote</a> (QString title)=0</td></tr>
-<tr class="separator:a8baa2681b5e9be060143d5f6d812e340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aeeac6ec5754334d0f809f8332e15b5" id="r_a5aeeac6ec5754334d0f809f8332e15b5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aeeac6ec5754334d0f809f8332e15b5">getNote</a> (QString title)=0</td></tr>
+<tr class="separator:a5aeeac6ec5754334d0f809f8332e15b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c97b64885936a3b792419204f6d012" id="r_a65c97b64885936a3b792419204f6d012"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65c97b64885936a3b792419204f6d012">load</a> ()=0</td></tr>
+<tr class="separator:a65c97b64885936a3b792419204f6d012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a258442f7b1316e140451bed57f79329d" id="r_a258442f7b1316e140451bed57f79329d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a258442f7b1316e140451bed57f79329d">save</a> ()=0</td></tr>
+<tr class="separator:a258442f7b1316e140451bed57f79329d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a593e9ab512bcf6db1e7559740d9a0417" id="r_a593e9ab512bcf6db1e7559740d9a0417"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593e9ab512bcf6db1e7559740d9a0417">isExist</a> (QString title)=0</td></tr>
+<tr class="separator:a593e9ab512bcf6db1e7559740d9a0417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6e8b566f7e4fe289d45f21bc93d968b" id="r_af6e8b566f7e4fe289d45f21bc93d968b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e8b566f7e4fe289d45f21bc93d968b">saveNote</a> (QString title, QString text, QString date_time)=0</td></tr>
+<tr class="memdesc:af6e8b566f7e4fe289d45f21bc93d968b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a note with the specified title, text, and date.  <br /></td></tr>
+<tr class="separator:af6e8b566f7e4fe289d45f21bc93d968b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d49cf54d61a52d983c2fa75e3140dd8" id="r_a6d49cf54d61a52d983c2fa75e3140dd8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d49cf54d61a52d983c2fa75e3140dd8">deleteNote</a> (QString title)=0</td></tr>
+<tr class="memdesc:a6d49cf54d61a52d983c2fa75e3140dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a note with the specified title.  <br /></td></tr>
+<tr class="separator:a6d49cf54d61a52d983c2fa75e3140dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f59ad214a233cd9734707dc9a46680" id="r_ab9f59ad214a233cd9734707dc9a46680"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9f59ad214a233cd9734707dc9a46680">getNote</a> (int i)=0</td></tr>
+<tr class="memdesc:ab9f59ad214a233cd9734707dc9a46680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the note at the specified index.  <br /></td></tr>
+<tr class="separator:ab9f59ad214a233cd9734707dc9a46680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afccd8658ca1502b1fee1046d186bf135" id="r_afccd8658ca1502b1fee1046d186bf135"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afccd8658ca1502b1fee1046d186bf135">getLength</a> ()=0</td></tr>
+<tr class="memdesc:afccd8658ca1502b1fee1046d186bf135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the total number of notes.  <br /></td></tr>
+<tr class="separator:afccd8658ca1502b1fee1046d186bf135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbe70fff291cfb7992facc472960b6de" id="r_abbe70fff291cfb7992facc472960b6de"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbe70fff291cfb7992facc472960b6de">changeNote</a> (QString title, QString text)=0</td></tr>
+<tr class="memdesc:abbe70fff291cfb7992facc472960b6de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the text content of a note with the specified title.  <br /></td></tr>
+<tr class="separator:abbe70fff291cfb7992facc472960b6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aeeac6ec5754334d0f809f8332e15b5" id="r_a5aeeac6ec5754334d0f809f8332e15b5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aeeac6ec5754334d0f809f8332e15b5">getNote</a> (QString title)=0</td></tr>
+<tr class="memdesc:a5aeeac6ec5754334d0f809f8332e15b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the note with the specified title.  <br /></td></tr>
+<tr class="separator:a5aeeac6ec5754334d0f809f8332e15b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c97b64885936a3b792419204f6d012" id="r_a65c97b64885936a3b792419204f6d012"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65c97b64885936a3b792419204f6d012">load</a> ()=0</td></tr>
+<tr class="memdesc:a65c97b64885936a3b792419204f6d012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads notes from storage.  <br /></td></tr>
+<tr class="separator:a65c97b64885936a3b792419204f6d012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a258442f7b1316e140451bed57f79329d" id="r_a258442f7b1316e140451bed57f79329d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a258442f7b1316e140451bed57f79329d">save</a> ()=0</td></tr>
+<tr class="memdesc:a258442f7b1316e140451bed57f79329d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves notes to storage.  <br /></td></tr>
+<tr class="separator:a258442f7b1316e140451bed57f79329d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a593e9ab512bcf6db1e7559740d9a0417" id="r_a593e9ab512bcf6db1e7559740d9a0417"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593e9ab512bcf6db1e7559740d9a0417">isExist</a> (QString title)=0</td></tr>
+<tr class="memdesc:a593e9ab512bcf6db1e7559740d9a0417"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a note with the specified title exists.  <br /></td></tr>
+<tr class="separator:a593e9ab512bcf6db1e7559740d9a0417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6e8b566f7e4fe289d45f21bc93d968b" id="r_af6e8b566f7e4fe289d45f21bc93d968b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e8b566f7e4fe289d45f21bc93d968b">saveNote</a> (QString title, QString text, QString date_time)=0</td></tr>
+<tr class="memdesc:af6e8b566f7e4fe289d45f21bc93d968b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a note with the specified title, text, and date.  <br /></td></tr>
+<tr class="separator:af6e8b566f7e4fe289d45f21bc93d968b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d49cf54d61a52d983c2fa75e3140dd8" id="r_a6d49cf54d61a52d983c2fa75e3140dd8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d49cf54d61a52d983c2fa75e3140dd8">deleteNote</a> (QString title)=0</td></tr>
+<tr class="memdesc:a6d49cf54d61a52d983c2fa75e3140dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a note with the specified title.  <br /></td></tr>
+<tr class="separator:a6d49cf54d61a52d983c2fa75e3140dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f59ad214a233cd9734707dc9a46680" id="r_ab9f59ad214a233cd9734707dc9a46680"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9f59ad214a233cd9734707dc9a46680">getNote</a> (int i)=0</td></tr>
+<tr class="memdesc:ab9f59ad214a233cd9734707dc9a46680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the note at the specified index.  <br /></td></tr>
+<tr class="separator:ab9f59ad214a233cd9734707dc9a46680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afccd8658ca1502b1fee1046d186bf135" id="r_afccd8658ca1502b1fee1046d186bf135"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afccd8658ca1502b1fee1046d186bf135">getLength</a> ()=0</td></tr>
+<tr class="memdesc:afccd8658ca1502b1fee1046d186bf135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the total number of notes.  <br /></td></tr>
+<tr class="separator:afccd8658ca1502b1fee1046d186bf135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbe70fff291cfb7992facc472960b6de" id="r_abbe70fff291cfb7992facc472960b6de"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbe70fff291cfb7992facc472960b6de">changeNote</a> (QString title, QString text)=0</td></tr>
+<tr class="memdesc:abbe70fff291cfb7992facc472960b6de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the text content of a note with the specified title.  <br /></td></tr>
+<tr class="separator:abbe70fff291cfb7992facc472960b6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aeeac6ec5754334d0f809f8332e15b5" id="r_a5aeeac6ec5754334d0f809f8332e15b5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aeeac6ec5754334d0f809f8332e15b5">getNote</a> (QString title)=0</td></tr>
+<tr class="memdesc:a5aeeac6ec5754334d0f809f8332e15b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the note with the specified title.  <br /></td></tr>
+<tr class="separator:a5aeeac6ec5754334d0f809f8332e15b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c97b64885936a3b792419204f6d012" id="r_a65c97b64885936a3b792419204f6d012"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65c97b64885936a3b792419204f6d012">load</a> ()=0</td></tr>
+<tr class="memdesc:a65c97b64885936a3b792419204f6d012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads notes from storage.  <br /></td></tr>
+<tr class="separator:a65c97b64885936a3b792419204f6d012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a258442f7b1316e140451bed57f79329d" id="r_a258442f7b1316e140451bed57f79329d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a258442f7b1316e140451bed57f79329d">save</a> ()=0</td></tr>
+<tr class="memdesc:a258442f7b1316e140451bed57f79329d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves notes to storage.  <br /></td></tr>
+<tr class="separator:a258442f7b1316e140451bed57f79329d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a593e9ab512bcf6db1e7559740d9a0417" id="r_a593e9ab512bcf6db1e7559740d9a0417"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593e9ab512bcf6db1e7559740d9a0417">isExist</a> (QString title)=0</td></tr>
+<tr class="memdesc:a593e9ab512bcf6db1e7559740d9a0417"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a note with the specified title exists.  <br /></td></tr>
+<tr class="separator:a593e9ab512bcf6db1e7559740d9a0417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6e8b566f7e4fe289d45f21bc93d968b" id="r_af6e8b566f7e4fe289d45f21bc93d968b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e8b566f7e4fe289d45f21bc93d968b">saveNote</a> (QString title, QString text, QString date_time)=0</td></tr>
+<tr class="separator:af6e8b566f7e4fe289d45f21bc93d968b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d49cf54d61a52d983c2fa75e3140dd8" id="r_a6d49cf54d61a52d983c2fa75e3140dd8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d49cf54d61a52d983c2fa75e3140dd8">deleteNote</a> (QString title)=0</td></tr>
+<tr class="separator:a6d49cf54d61a52d983c2fa75e3140dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f59ad214a233cd9734707dc9a46680" id="r_ab9f59ad214a233cd9734707dc9a46680"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9f59ad214a233cd9734707dc9a46680">getNote</a> (int i)=0</td></tr>
+<tr class="separator:ab9f59ad214a233cd9734707dc9a46680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99bf327df325ea3b1f3f59ae4ac8806e" id="r_a99bf327df325ea3b1f3f59ae4ac8806e"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99bf327df325ea3b1f3f59ae4ac8806e">getLenght</a> ()=0</td></tr>
+<tr class="separator:a99bf327df325ea3b1f3f59ae4ac8806e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbe70fff291cfb7992facc472960b6de" id="r_abbe70fff291cfb7992facc472960b6de"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbe70fff291cfb7992facc472960b6de">changeNote</a> (QString title, QString text)=0</td></tr>
+<tr class="separator:abbe70fff291cfb7992facc472960b6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aeeac6ec5754334d0f809f8332e15b5" id="r_a5aeeac6ec5754334d0f809f8332e15b5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_note.html">Note</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aeeac6ec5754334d0f809f8332e15b5">getNote</a> (QString title)=0</td></tr>
+<tr class="separator:a5aeeac6ec5754334d0f809f8332e15b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65c97b64885936a3b792419204f6d012" id="r_a65c97b64885936a3b792419204f6d012"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65c97b64885936a3b792419204f6d012">load</a> ()=0</td></tr>
 <tr class="separator:a65c97b64885936a3b792419204f6d012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a258442f7b1316e140451bed57f79329d" id="r_a258442f7b1316e140451bed57f79329d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a258442f7b1316e140451bed57f79329d">save</a> ()=0</td></tr>
@@ -119,11 +194,12 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Патерн Proxy. Керує нотатками в пам'яті програми </p>
+<p>The <a class="el" href="class_note_manager.html" title="Патерн Proxy. Керує нотатками в пам&#39;яті програми">NoteManager</a> class, a Proxy pattern that manages notes in the program's memory. </p>
 
-<p class="definition">Definition at line <a class="el" href="notemanager_8h_source.html#l00009">9</a> of file <a class="el" href="notemanager_8h_source.html">notemanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2notemanager_8h_source.html#l00009">9</a> of file <a class="el" href="_my_notes_maker_2notemanager_8h_source.html">notemanager.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="abbe70fff291cfb7992facc472960b6de" name="abbe70fff291cfb7992facc472960b6de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbe70fff291cfb7992facc472960b6de">&#9670;&#160;</a></span>changeNote()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abbe70fff291cfb7992facc472960b6de">&#9670;&#160;</a></span>changeNote() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -149,12 +225,123 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>.</p>
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="abbe70fff291cfb7992facc472960b6de" name="abbe70fff291cfb7992facc472960b6de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbe70fff291cfb7992facc472960b6de">&#9670;&#160;</a></span>changeNote() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::changeNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>text</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Changes the text content of a note with the specified title. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note to change. </td></tr>
+    <tr><td class="paramname">text</td><td>The new text content of the note. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="abbe70fff291cfb7992facc472960b6de" name="abbe70fff291cfb7992facc472960b6de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbe70fff291cfb7992facc472960b6de">&#9670;&#160;</a></span>changeNote() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::changeNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>text</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Changes the text content of a note with the specified title. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note to change. </td></tr>
+    <tr><td class="paramname">text</td><td>The new text content of the note. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="abbe70fff291cfb7992facc472960b6de" name="abbe70fff291cfb7992facc472960b6de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbe70fff291cfb7992facc472960b6de">&#9670;&#160;</a></span>changeNote() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::changeNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>text</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a8b7ee087c6f7a3dddd43cd9f9b49a4d3">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a2b824d9f3608769b6a1bf8a979d9be53">RealNoteManager</a>.</p>
 
 </div>
 </div>
 <a id="a6d49cf54d61a52d983c2fa75e3140dd8" name="a6d49cf54d61a52d983c2fa75e3140dd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d49cf54d61a52d983c2fa75e3140dd8">&#9670;&#160;</a></span>deleteNote()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d49cf54d61a52d983c2fa75e3140dd8">&#9670;&#160;</a></span>deleteNote() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,12 +363,109 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>.</p>
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a6d49cf54d61a52d983c2fa75e3140dd8" name="a6d49cf54d61a52d983c2fa75e3140dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d49cf54d61a52d983c2fa75e3140dd8">&#9670;&#160;</a></span>deleteNote() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::deleteNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes a note with the specified title. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note to delete. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a6d49cf54d61a52d983c2fa75e3140dd8" name="a6d49cf54d61a52d983c2fa75e3140dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d49cf54d61a52d983c2fa75e3140dd8">&#9670;&#160;</a></span>deleteNote() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::deleteNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes a note with the specified title. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note to delete. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a6d49cf54d61a52d983c2fa75e3140dd8" name="a6d49cf54d61a52d983c2fa75e3140dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d49cf54d61a52d983c2fa75e3140dd8">&#9670;&#160;</a></span>deleteNote() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::deleteNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#ae9a4378de2c2f4bf3d10c38ce7cdf704">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#aef5a3247acf60484550fe44561a5e84e">RealNoteManager</a>.</p>
 
 </div>
 </div>
 <a id="a99bf327df325ea3b1f3f59ae4ac8806e" name="a99bf327df325ea3b1f3f59ae4ac8806e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99bf327df325ea3b1f3f59ae4ac8806e">&#9670;&#160;</a></span>getLenght()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a99bf327df325ea3b1f3f59ae4ac8806e">&#9670;&#160;</a></span>getLenght() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,12 +487,99 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a422400a95184ced315262132e32a40d1">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a75d5c6af71d3952b661231b17669ada1">RealNoteManager</a>.</p>
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a422400a95184ced315262132e32a40d1">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a75d5c6af71d3952b661231b17669ada1">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a422400a95184ced315262132e32a40d1">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a75d5c6af71d3952b661231b17669ada1">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a99bf327df325ea3b1f3f59ae4ac8806e" name="a99bf327df325ea3b1f3f59ae4ac8806e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99bf327df325ea3b1f3f59ae4ac8806e">&#9670;&#160;</a></span>getLenght() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int NoteManager::getLenght </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a422400a95184ced315262132e32a40d1">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a75d5c6af71d3952b661231b17669ada1">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a422400a95184ced315262132e32a40d1">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a75d5c6af71d3952b661231b17669ada1">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="afccd8658ca1502b1fee1046d186bf135" name="afccd8658ca1502b1fee1046d186bf135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afccd8658ca1502b1fee1046d186bf135">&#9670;&#160;</a></span>getLength() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int NoteManager::getLength </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the total number of notes. </p>
+<dl class="section return"><dt>Returns</dt><dd>The total number of notes. </dd></dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#af0793e39baf8f3982cb8d45d1b73b596">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#ad38daf2f2455471f0b716b63bd615ea8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#af0793e39baf8f3982cb8d45d1b73b596">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#ad38daf2f2455471f0b716b63bd615ea8">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="afccd8658ca1502b1fee1046d186bf135" name="afccd8658ca1502b1fee1046d186bf135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afccd8658ca1502b1fee1046d186bf135">&#9670;&#160;</a></span>getLength() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int NoteManager::getLength </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the total number of notes. </p>
+<dl class="section return"><dt>Returns</dt><dd>The total number of notes. </dd></dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#af0793e39baf8f3982cb8d45d1b73b596">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#ad38daf2f2455471f0b716b63bd615ea8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#af0793e39baf8f3982cb8d45d1b73b596">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#ad38daf2f2455471f0b716b63bd615ea8">RealNoteManager</a>.</p>
 
 </div>
 </div>
 <a id="ab9f59ad214a233cd9734707dc9a46680" name="ab9f59ad214a233cd9734707dc9a46680"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9f59ad214a233cd9734707dc9a46680">&#9670;&#160;</a></span>getNote() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f59ad214a233cd9734707dc9a46680">&#9670;&#160;</a></span>getNote() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230,12 +601,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>.</p>
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>.</p>
 
 </div>
 </div>
-<a id="a8baa2681b5e9be060143d5f6d812e340" name="a8baa2681b5e9be060143d5f6d812e340"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8baa2681b5e9be060143d5f6d812e340">&#9670;&#160;</a></span>getNote() <span class="overload">[2/2]</span></h2>
+<a id="ab9f59ad214a233cd9734707dc9a46680" name="ab9f59ad214a233cd9734707dc9a46680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f59ad214a233cd9734707dc9a46680">&#9670;&#160;</a></span>getNote() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,34 +615,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual QPair&lt; QString, QString &gt; NoteManager::getNote </td>
-          <td>(</td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a00b7f0f32b33dab5a4f098ae05f3be44">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a0ec2cd06cd0a55efb1a08fab6651ff62">RealNoteManager</a>.</p>
-
-</div>
-</div>
-<a id="a8301f09f261df5914c3c03748d2cd533" name="a8301f09f261df5914c3c03748d2cd533"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8301f09f261df5914c3c03748d2cd533">&#9670;&#160;</a></span>getNoteTitleDate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual QPair&lt; QString, QString &gt; NoteManager::getNoteTitleDate </td>
+          <td class="memname">virtual <a class="el" href="class_note.html">Note</a> NoteManager::getNote </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
           <td></td>
@@ -284,12 +628,210 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a27154e1e1b4da616364f15a23318bd33">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#ace15788f1a8d961e8357a58cf096f48a">RealNoteManager</a>.</p>
+<p>Gets the note at the specified index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>The index of the note to retrieve. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The note at the specified index. </dd></dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="ab9f59ad214a233cd9734707dc9a46680" name="ab9f59ad214a233cd9734707dc9a46680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f59ad214a233cd9734707dc9a46680">&#9670;&#160;</a></span>getNote() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_note.html">Note</a> NoteManager::getNote </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the note at the specified index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>The index of the note to retrieve. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The note at the specified index. </dd></dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="ab9f59ad214a233cd9734707dc9a46680" name="ab9f59ad214a233cd9734707dc9a46680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f59ad214a233cd9734707dc9a46680">&#9670;&#160;</a></span>getNote() <span class="overload">[4/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_note.html">Note</a> NoteManager::getNote </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a594a4530628993eb9dcd5580e422327c">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a84db13dd1ec6e7f2dbae29a297b3ba83">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a5aeeac6ec5754334d0f809f8332e15b5" name="a5aeeac6ec5754334d0f809f8332e15b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aeeac6ec5754334d0f809f8332e15b5">&#9670;&#160;</a></span>getNote() <span class="overload">[5/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_note.html">Note</a> NoteManager::getNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a5aeeac6ec5754334d0f809f8332e15b5" name="a5aeeac6ec5754334d0f809f8332e15b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aeeac6ec5754334d0f809f8332e15b5">&#9670;&#160;</a></span>getNote() <span class="overload">[6/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_note.html">Note</a> NoteManager::getNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the note with the specified title. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note to retrieve. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The note with the specified title. </dd></dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a5aeeac6ec5754334d0f809f8332e15b5" name="a5aeeac6ec5754334d0f809f8332e15b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aeeac6ec5754334d0f809f8332e15b5">&#9670;&#160;</a></span>getNote() <span class="overload">[7/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_note.html">Note</a> NoteManager::getNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the note with the specified title. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note to retrieve. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The note with the specified title. </dd></dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a5aeeac6ec5754334d0f809f8332e15b5" name="a5aeeac6ec5754334d0f809f8332e15b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aeeac6ec5754334d0f809f8332e15b5">&#9670;&#160;</a></span>getNote() <span class="overload">[8/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_note.html">Note</a> NoteManager::getNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a15f2ff5a606f121df6e5a5cf49fdebc6">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a9d296d28023bd14af34e1554a40db6c8">RealNoteManager</a>.</p>
 
 </div>
 </div>
 <a id="a593e9ab512bcf6db1e7559740d9a0417" name="a593e9ab512bcf6db1e7559740d9a0417"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a593e9ab512bcf6db1e7559740d9a0417">&#9670;&#160;</a></span>isExist()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a593e9ab512bcf6db1e7559740d9a0417">&#9670;&#160;</a></span>isExist() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,12 +853,111 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>.</p>
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a593e9ab512bcf6db1e7559740d9a0417" name="a593e9ab512bcf6db1e7559740d9a0417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a593e9ab512bcf6db1e7559740d9a0417">&#9670;&#160;</a></span>isExist() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool NoteManager::isExist </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if a note with the specified title exists. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the note exists, otherwise false. </dd></dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a593e9ab512bcf6db1e7559740d9a0417" name="a593e9ab512bcf6db1e7559740d9a0417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a593e9ab512bcf6db1e7559740d9a0417">&#9670;&#160;</a></span>isExist() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool NoteManager::isExist </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if a note with the specified title exists. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the note exists, otherwise false. </dd></dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a593e9ab512bcf6db1e7559740d9a0417" name="a593e9ab512bcf6db1e7559740d9a0417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a593e9ab512bcf6db1e7559740d9a0417">&#9670;&#160;</a></span>isExist() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool NoteManager::isExist </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a9bb36805212ca1644346c124390a203d">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#aaba259c157c4846093cd7f6ffb32818d">RealNoteManager</a>.</p>
 
 </div>
 </div>
 <a id="a65c97b64885936a3b792419204f6d012" name="a65c97b64885936a3b792419204f6d012"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65c97b64885936a3b792419204f6d012">&#9670;&#160;</a></span>load()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a65c97b64885936a3b792419204f6d012">&#9670;&#160;</a></span>load() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -338,12 +979,97 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>.</p>
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a65c97b64885936a3b792419204f6d012" name="a65c97b64885936a3b792419204f6d012"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65c97b64885936a3b792419204f6d012">&#9670;&#160;</a></span>load() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::load </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads notes from storage. </p>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a65c97b64885936a3b792419204f6d012" name="a65c97b64885936a3b792419204f6d012"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65c97b64885936a3b792419204f6d012">&#9670;&#160;</a></span>load() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::load </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads notes from storage. </p>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a65c97b64885936a3b792419204f6d012" name="a65c97b64885936a3b792419204f6d012"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65c97b64885936a3b792419204f6d012">&#9670;&#160;</a></span>load() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::load </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a10dc3f0333314c514ba0fe677500d7cc">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a4cb79fa0f84a8d3d95c18e9444dc2652">RealNoteManager</a>.</p>
 
 </div>
 </div>
 <a id="a258442f7b1316e140451bed57f79329d" name="a258442f7b1316e140451bed57f79329d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a258442f7b1316e140451bed57f79329d">&#9670;&#160;</a></span>save()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a258442f7b1316e140451bed57f79329d">&#9670;&#160;</a></span>save() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -365,12 +1091,97 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>.</p>
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a258442f7b1316e140451bed57f79329d" name="a258442f7b1316e140451bed57f79329d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a258442f7b1316e140451bed57f79329d">&#9670;&#160;</a></span>save() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::save </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves notes to storage. </p>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a258442f7b1316e140451bed57f79329d" name="a258442f7b1316e140451bed57f79329d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a258442f7b1316e140451bed57f79329d">&#9670;&#160;</a></span>save() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::save </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves notes to storage. </p>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="a258442f7b1316e140451bed57f79329d" name="a258442f7b1316e140451bed57f79329d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a258442f7b1316e140451bed57f79329d">&#9670;&#160;</a></span>save() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::save </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#afb73cad21485e1b0d79ad059290ce452">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a36d25a48eb418942c83a78d1ef1c95f6">RealNoteManager</a>.</p>
 
 </div>
 </div>
 <a id="af6e8b566f7e4fe289d45f21bc93d968b" name="af6e8b566f7e4fe289d45f21bc93d968b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6e8b566f7e4fe289d45f21bc93d968b">&#9670;&#160;</a></span>saveNote()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e8b566f7e4fe289d45f21bc93d968b">&#9670;&#160;</a></span>saveNote() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -401,12 +1212,143 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>.</p>
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="notemanager_8h_source.html">notemanager.h</a></li>
+<a id="af6e8b566f7e4fe289d45f21bc93d968b" name="af6e8b566f7e4fe289d45f21bc93d968b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e8b566f7e4fe289d45f21bc93d968b">&#9670;&#160;</a></span>saveNote() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::saveNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>text</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>date_time</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves a note with the specified title, text, and date. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note. </td></tr>
+    <tr><td class="paramname">text</td><td>The text content of the note. </td></tr>
+    <tr><td class="paramname">date_time</td><td>The date and time of the note. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="af6e8b566f7e4fe289d45f21bc93d968b" name="af6e8b566f7e4fe289d45f21bc93d968b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e8b566f7e4fe289d45f21bc93d968b">&#9670;&#160;</a></span>saveNote() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::saveNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>text</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>date_time</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves a note with the specified title, text, and date. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the note. </td></tr>
+    <tr><td class="paramname">text</td><td>The text content of the note. </td></tr>
+    <tr><td class="paramname">date_time</td><td>The date and time of the note. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<a id="af6e8b566f7e4fe289d45f21bc93d968b" name="af6e8b566f7e4fe289d45f21bc93d968b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e8b566f7e4fe289d45f21bc93d968b">&#9670;&#160;</a></span>saveNote() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void NoteManager::saveNote </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>title</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>text</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>date_time</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>, <a class="el" href="class_proxy_note_manager.html#a3573967b31cad2195d1f026ec240e090">ProxyNoteManager</a>, and <a class="el" href="class_real_note_manager.html#a33cf1e77bfa88dea21ab4c65a6dc3da9">RealNoteManager</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>MyNotesMaker/<a class="el" href="_my_notes_maker_2notemanager_8h_source.html">notemanager.h</a></li>
+<li>OOOP/MyNotesMaker/MyNotesMaker/<a class="el" href="_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2notemanager_8h_source.html">notemanager.h</a></li>
+<li>qt/OOOP/MyNotesMaker/MyNotesMaker/<a class="el" href="qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2notemanager_8h_source.html">notemanager.h</a></li>
+<li>task/OOOP/MyNotesMaker/MyNotesMaker/<a class="el" href="task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2notemanager_8h_source.html">notemanager.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

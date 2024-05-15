@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['unicode_0',['UNICODE',['../_desktop___qt__6__6__3___min_g_w__64__bit-_debug_2_my_notes_maker__autogen_2moc__predefs_8h.html#a09ecca53f2cd1b8d1c566bedb245e141',1,'UNICODE:&#160;moc_predefs.h'],['../_desktop___qt__6__6__3___min_g_w__64__bit-_release_2_my_notes_maker__autogen_2moc__predefs_8h.html#a09ecca53f2cd1b8d1c566bedb245e141',1,'UNICODE:&#160;moc_predefs.h']]]
+  ['message_0',['MESSAGE',['../_o_o_o_p_2lab1_2doctest_8h.html#ad655b38a678a6c69f4555b7737d4b7d3',1,'MESSAGE:&#160;doctest.h'],['../qt_2_o_o_o_p_2lab1_2doctest_8h.html#ad655b38a678a6c69f4555b7737d4b7d3',1,'MESSAGE:&#160;doctest.h'],['../task_2_o_o_o_p_2lab1_2doctest_8h.html#ad655b38a678a6c69f4555b7737d4b7d3',1,'MESSAGE:&#160;doctest.h']]],
+  ['mingw_5fhas_5fsecure_5fapi_1',['MINGW_HAS_SECURE_API',['../task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2build_2_desktop___qt__6__6__3___min_g_w__64__ba5a9a2f4e5542f67c44c298332b6b391.html#a7652218632d79c675cce0c49732ee345',1,'MINGW_HAS_SECURE_API:&#160;moc_predefs.h'],['../timer_2build_2_desktop___qt__6__6__3___min_g_w__64__bit-_debug_2timer__autogen_2moc__predefs_8h.html#a7652218632d79c675cce0c49732ee345',1,'MINGW_HAS_SECURE_API:&#160;moc_predefs.h']]]
 ];

@@ -1,8 +1,22 @@
 var searchData=
 [
-  ['u_0',['u',['../class_main_window.html#a2ea0c874911a85220f677c861f133965',1,'MainWindow']]],
-  ['ubuntu_1',['ubuntu',['../class_ui___settings_widget.html#a66be8654dcec7f4686148f75b55169a8',1,'Ui_SettingsWidget']]],
-  ['ui_2',['ui',['../class_main_window.html#a35466a70ed47252a0191168126a352a5',1,'MainWindow::ui'],['../class_particle_life_widget.html#a702af7d51be62479b5d22b1955ad252b',1,'ParticleLifeWidget::ui'],['../class_search_widget.html#a6f92e99122fb3fd167216906576e9382',1,'SearchWidget::ui'],['../class_settings_widget.html#a5fe2ac75be09726a07ae26cf6ae764d1',1,'SettingsWidget::ui']]],
-  ['underlinebtn_3',['underlineBtn',['../class_ui___search_widget.html#af0a79ee7e47d74ee6fbbedad7e01fcc7',1,'Ui_SearchWidget']]],
-  ['updatehandler_4',['updateHandler',['../class_side_panel.html#aa6de741206f8f48fbf5934095b420be1',1,'SidePanel']]]
+  ['tab_0',['tab',['../class_ui___main_window.html#a3efc28c664e9f5115095aafbbc5ac6bc',1,'Ui_MainWindow::tab'],['../class_ui___search_widget.html#a64481419125b960ec57843aa735d7c3c',1,'Ui_SearchWidget::tab']]],
+  ['tab_5f2_1',['tab_2',['../class_ui___main_window.html#a83495b23cbc6810f81978dc0d584b810',1,'Ui_MainWindow::tab_2'],['../class_ui___search_widget.html#aa3a8cb158e062538bde6054767a4b31e',1,'Ui_SearchWidget::tab_2']]],
+  ['tabwidget_2',['tabWidget',['../class_ui___main_window.html#a3260b943854b841c986f47c4726ee7f9',1,'Ui_MainWindow']]],
+  ['tabwidget1_3',['tabWidget1',['../class_ui___search_widget.html#a5cc48707b0ea8cf649af8fcd240ce291',1,'Ui_SearchWidget']]],
+  ['testcase_4',['TestCase',['../namespacedoctest_1_1detail.html#ade1619b532a3d3e6f19ee1187ff3c514',1,'doctest::detail']]],
+  ['testcasesuccess_5',['testCaseSuccess',['../structdoctest_1_1_current_test_case_stats.html#a2c77d43c1fbab06710da7b5bbba4f3ab',1,'doctest::CurrentTestCaseStats']]],
+  ['text_6',['text',['../class_note.html#adf36c065219b3aa8280d21a59afce827',1,'Note::text'],['../structopenai_1_1__detail_1_1_response.html#aa245390f08a469962178bd56cbbe37fd',1,'openai::_detail::Response::text']]],
+  ['textedit_7',['textEdit',['../class_formatter.html#a026e67a09991c1f12dec236c7f937144',1,'Formatter::textEdit'],['../class_ui___main_window.html#a955cbbea2ef1a9929c3daf38b0a6dcd5',1,'Ui_MainWindow::textEdit']]],
+  ['thirdgroup_8',['thirdGroup',['../class_particle_worker.html#ade8f5818ba4f869576a96ed119ac9dec',1,'ParticleWorker']]],
+  ['thousands_5fsep_9',['thousands_sep',['../classdetail_1_1serializer.html#a5b75b99511362e4e5d011c8a961e96bb',1,'detail::serializer']]],
+  ['throw_5fexception_5f_10',['throw_exception_',['../classopenai_1_1__detail_1_1_session.html#a26e0d87284dd4ebd4541c7e6a8c39c19',1,'openai::_detail::Session::throw_exception_'],['../classopenai_1_1__detail_1_1_open_a_i.html#a7b810f673b90e339925e729f2d21f4ce',1,'openai::_detail::OpenAI::throw_exception_']]],
+  ['timer_11',['timer',['../classcoin_1_1_coin.html#aac5126bfb8b086fddd4d89f464366817',1,'coin::Coin']]],
+  ['title_12',['title',['../class_note.html#ae8e10911c66931c9285925e1760816fd',1,'Note']]],
+  ['titlelineedit_13',['titleLineEdit',['../class_ui___main_window.html#a26097fbd2b9c13fc3748a96f85661728',1,'Ui_MainWindow']]],
+  ['to_5fjson_14',['to_json',['../namespaceanonymous__namespace_02json_8hpp_03.html#a71b089f2f0421c6c94a3198e3d0a8ac7',1,'anonymous_namespace{json.hpp}']]],
+  ['token_5f_15',['token_',['../classopenai_1_1__detail_1_1_session.html#a063dbb46ec39a95ce7574199742d49eb',1,'openai::_detail::Session::token_'],['../classopenai_1_1__detail_1_1_open_a_i.html#ac05a5dfdef4756784d10ff49f647a787',1,'openai::_detail::OpenAI::token_']]],
+  ['token_5fbuffer_16',['token_buffer',['../classdetail_1_1lexer.html#a0a7d915c2d152fcf654550191d95130d',1,'detail::lexer']]],
+  ['token_5fstring_17',['token_string',['../classdetail_1_1lexer.html#ab86ac258740f344a8d004a98fbfec130',1,'detail::lexer']]],
+  ['topbtn_18',['topbtn',['../class_ui___main_window.html#a0618d8e7591a4e722eb443bf11c3bf6a',1,'Ui_MainWindow']]]
 ];

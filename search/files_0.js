@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['backgroundcolor_2ecpp_0',['backgroundcolor.cpp',['../backgroundcolor_8cpp.html',1,'']]],
-  ['backgroundcolor_2eh_1',['backgroundcolor.h',['../backgroundcolor_8h.html',1,'']]],
-  ['bold_2ecpp_2',['bold.cpp',['../bold_8cpp.html',1,'']]],
-  ['bold_2eh_3',['bold.h',['../bold_8h.html',1,'']]]
+  ['672bd14e6facff659e1e0e654c117d13565692a94499898a8114fbb5218359df_2ed_0',['672bd14e6facff659e1e0e654c117d13565692a94499898a8114fbb5218359df.d',['../672bd14e6facff659e1e0e654c117d13565692a94499898a8114fbb5218359df_8d.html',1,'']]]
 ];

@@ -22,7 +22,6 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="imgonline-com-ua-Resize-XVqBRNFQ4u.jpg"/></td>
   <td id="projectalign">
    <div id="projectname">MyNotesMaker
    </div>
@@ -80,7 +79,10 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="particle_8h_source.html">particle.h</a>&gt;</code></p>
+<p>Represents a particle in a graphics scene.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_my_notes_maker_2_particle_life_2particle_8h_source.html">particle.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Particle:</div>
 <div class="dyncontent">
@@ -90,8 +92,8 @@ Inheritance diagram for Particle:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a33719abe891162d878ad778e6a401b2a" id="r_a33719abe891162d878ad778e6a401b2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33719abe891162d878ad778e6a401b2a">Particle</a> (int xspread, int yspread, int radius, QColor color)</td></tr>
-<tr class="separator:a33719abe891162d878ad778e6a401b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a812ff967ca85f0d488d54a7309b61ee6" id="r_a812ff967ca85f0d488d54a7309b61ee6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a812ff967ca85f0d488d54a7309b61ee6">Particle</a> (int xspread, int yspread, int radius, QColor color, const <a class="el" href="struct_particle_data.html">ParticleData</a> *<a class="el" href="#a173e71dda6a7847b59b8bc1307621310">data</a>)</td></tr>
+<tr class="separator:a812ff967ca85f0d488d54a7309b61ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfb4bf98fe44d8d9238969e6087447d1" id="r_abfb4bf98fe44d8d9238969e6087447d1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfb4bf98fe44d8d9238969e6087447d1">getVX</a> ()</td></tr>
 <tr class="separator:abfb4bf98fe44d8d9238969e6087447d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40504f0c623b73a0832c12d61fcface0" id="r_a40504f0c623b73a0832c12d61fcface0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40504f0c623b73a0832c12d61fcface0">getVY</a> ()</td></tr>
@@ -100,20 +102,86 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2012f86253458fc9ca26492170232abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdfdd1c987b8ade883b91b2def46c0c1" id="r_afdfdd1c987b8ade883b91b2def46c0c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdfdd1c987b8ade883b91b2def46c0c1">setVY</a> (double ty)</td></tr>
 <tr class="separator:afdfdd1c987b8ade883b91b2def46c0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbeddce31d6cd37046bd271f58c5c092" id="r_adbeddce31d6cd37046bd271f58c5c092"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbeddce31d6cd37046bd271f58c5c092">getColor</a> ()</td></tr>
+<tr class="separator:adbeddce31d6cd37046bd271f58c5c092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d816aaf75b3a8de7a63e559ff8be487" id="r_a6d816aaf75b3a8de7a63e559ff8be487"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d816aaf75b3a8de7a63e559ff8be487">getRadius</a> ()</td></tr>
+<tr class="separator:a6d816aaf75b3a8de7a63e559ff8be487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a6fe2fda80bcfcd2b94c012047243d" id="r_ad6a6fe2fda80bcfcd2b94c012047243d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6a6fe2fda80bcfcd2b94c012047243d">Particle</a> (int xspread, int yspread, const <a class="el" href="struct_particle_data.html">ParticleData</a> *<a class="el" href="#a173e71dda6a7847b59b8bc1307621310">data</a>)</td></tr>
+<tr class="memdesc:ad6a6fe2fda80bcfcd2b94c012047243d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the <a class="el" href="class_particle.html" title="Represents a particle in a graphics scene.">Particle</a> class.  <br /></td></tr>
+<tr class="separator:ad6a6fe2fda80bcfcd2b94c012047243d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfb4bf98fe44d8d9238969e6087447d1" id="r_abfb4bf98fe44d8d9238969e6087447d1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfb4bf98fe44d8d9238969e6087447d1">getVX</a> ()</td></tr>
+<tr class="memdesc:abfb4bf98fe44d8d9238969e6087447d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the velocity along the x-axis.  <br /></td></tr>
+<tr class="separator:abfb4bf98fe44d8d9238969e6087447d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40504f0c623b73a0832c12d61fcface0" id="r_a40504f0c623b73a0832c12d61fcface0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40504f0c623b73a0832c12d61fcface0">getVY</a> ()</td></tr>
+<tr class="memdesc:a40504f0c623b73a0832c12d61fcface0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the velocity along the y-axis.  <br /></td></tr>
+<tr class="separator:a40504f0c623b73a0832c12d61fcface0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2012f86253458fc9ca26492170232abd" id="r_a2012f86253458fc9ca26492170232abd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2012f86253458fc9ca26492170232abd">setVX</a> (double tx)</td></tr>
+<tr class="memdesc:a2012f86253458fc9ca26492170232abd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the velocity along the x-axis.  <br /></td></tr>
+<tr class="separator:a2012f86253458fc9ca26492170232abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdfdd1c987b8ade883b91b2def46c0c1" id="r_afdfdd1c987b8ade883b91b2def46c0c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdfdd1c987b8ade883b91b2def46c0c1">setVY</a> (double ty)</td></tr>
+<tr class="memdesc:afdfdd1c987b8ade883b91b2def46c0c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the velocity along the y-axis.  <br /></td></tr>
+<tr class="separator:afdfdd1c987b8ade883b91b2def46c0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbeddce31d6cd37046bd271f58c5c092" id="r_adbeddce31d6cd37046bd271f58c5c092"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbeddce31d6cd37046bd271f58c5c092">getColor</a> ()</td></tr>
+<tr class="memdesc:adbeddce31d6cd37046bd271f58c5c092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the color of the particle.  <br /></td></tr>
+<tr class="separator:adbeddce31d6cd37046bd271f58c5c092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d816aaf75b3a8de7a63e559ff8be487" id="r_a6d816aaf75b3a8de7a63e559ff8be487"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d816aaf75b3a8de7a63e559ff8be487">getRadius</a> ()</td></tr>
+<tr class="memdesc:a6d816aaf75b3a8de7a63e559ff8be487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the radius of the particle.  <br /></td></tr>
+<tr class="separator:a6d816aaf75b3a8de7a63e559ff8be487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a6fe2fda80bcfcd2b94c012047243d" id="r_ad6a6fe2fda80bcfcd2b94c012047243d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6a6fe2fda80bcfcd2b94c012047243d">Particle</a> (int xspread, int yspread, const <a class="el" href="struct_particle_data.html">ParticleData</a> *<a class="el" href="#a173e71dda6a7847b59b8bc1307621310">data</a>)</td></tr>
+<tr class="memdesc:ad6a6fe2fda80bcfcd2b94c012047243d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the <a class="el" href="class_particle.html" title="Represents a particle in a graphics scene.">Particle</a> class.  <br /></td></tr>
+<tr class="separator:ad6a6fe2fda80bcfcd2b94c012047243d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfb4bf98fe44d8d9238969e6087447d1" id="r_abfb4bf98fe44d8d9238969e6087447d1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfb4bf98fe44d8d9238969e6087447d1">getVX</a> ()</td></tr>
+<tr class="memdesc:abfb4bf98fe44d8d9238969e6087447d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the velocity along the x-axis.  <br /></td></tr>
+<tr class="separator:abfb4bf98fe44d8d9238969e6087447d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40504f0c623b73a0832c12d61fcface0" id="r_a40504f0c623b73a0832c12d61fcface0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40504f0c623b73a0832c12d61fcface0">getVY</a> ()</td></tr>
+<tr class="memdesc:a40504f0c623b73a0832c12d61fcface0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the velocity along the y-axis.  <br /></td></tr>
+<tr class="separator:a40504f0c623b73a0832c12d61fcface0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2012f86253458fc9ca26492170232abd" id="r_a2012f86253458fc9ca26492170232abd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2012f86253458fc9ca26492170232abd">setVX</a> (double tx)</td></tr>
+<tr class="memdesc:a2012f86253458fc9ca26492170232abd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the velocity along the x-axis.  <br /></td></tr>
+<tr class="separator:a2012f86253458fc9ca26492170232abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdfdd1c987b8ade883b91b2def46c0c1" id="r_afdfdd1c987b8ade883b91b2def46c0c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdfdd1c987b8ade883b91b2def46c0c1">setVY</a> (double ty)</td></tr>
+<tr class="memdesc:afdfdd1c987b8ade883b91b2def46c0c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the velocity along the y-axis.  <br /></td></tr>
+<tr class="separator:afdfdd1c987b8ade883b91b2def46c0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbeddce31d6cd37046bd271f58c5c092" id="r_adbeddce31d6cd37046bd271f58c5c092"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbeddce31d6cd37046bd271f58c5c092">getColor</a> ()</td></tr>
+<tr class="memdesc:adbeddce31d6cd37046bd271f58c5c092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the color of the particle.  <br /></td></tr>
+<tr class="separator:adbeddce31d6cd37046bd271f58c5c092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d816aaf75b3a8de7a63e559ff8be487" id="r_a6d816aaf75b3a8de7a63e559ff8be487"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d816aaf75b3a8de7a63e559ff8be487">getRadius</a> ()</td></tr>
+<tr class="memdesc:a6d816aaf75b3a8de7a63e559ff8be487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the radius of the particle.  <br /></td></tr>
+<tr class="separator:a6d816aaf75b3a8de7a63e559ff8be487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a812ff967ca85f0d488d54a7309b61ee6" id="r_a812ff967ca85f0d488d54a7309b61ee6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a812ff967ca85f0d488d54a7309b61ee6">Particle</a> (int xspread, int yspread, int radius, QColor color, const <a class="el" href="struct_particle_data.html">ParticleData</a> *<a class="el" href="#a173e71dda6a7847b59b8bc1307621310">data</a>)</td></tr>
+<tr class="separator:a812ff967ca85f0d488d54a7309b61ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfb4bf98fe44d8d9238969e6087447d1" id="r_abfb4bf98fe44d8d9238969e6087447d1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfb4bf98fe44d8d9238969e6087447d1">getVX</a> ()</td></tr>
+<tr class="separator:abfb4bf98fe44d8d9238969e6087447d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40504f0c623b73a0832c12d61fcface0" id="r_a40504f0c623b73a0832c12d61fcface0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40504f0c623b73a0832c12d61fcface0">getVY</a> ()</td></tr>
+<tr class="separator:a40504f0c623b73a0832c12d61fcface0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2012f86253458fc9ca26492170232abd" id="r_a2012f86253458fc9ca26492170232abd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2012f86253458fc9ca26492170232abd">setVX</a> (double tx)</td></tr>
+<tr class="separator:a2012f86253458fc9ca26492170232abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdfdd1c987b8ade883b91b2def46c0c1" id="r_afdfdd1c987b8ade883b91b2def46c0c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdfdd1c987b8ade883b91b2def46c0c1">setVY</a> (double ty)</td></tr>
+<tr class="separator:afdfdd1c987b8ade883b91b2def46c0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbeddce31d6cd37046bd271f58c5c092" id="r_adbeddce31d6cd37046bd271f58c5c092"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbeddce31d6cd37046bd271f58c5c092">getColor</a> ()</td></tr>
+<tr class="separator:adbeddce31d6cd37046bd271f58c5c092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d816aaf75b3a8de7a63e559ff8be487" id="r_a6d816aaf75b3a8de7a63e559ff8be487"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d816aaf75b3a8de7a63e559ff8be487">getRadius</a> ()</td></tr>
+<tr class="separator:a6d816aaf75b3a8de7a63e559ff8be487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a53bf9654ce8a84bc294528b041027c3a" id="r_a53bf9654ce8a84bc294528b041027c3a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53bf9654ce8a84bc294528b041027c3a">vx</a></td></tr>
+<tr class="memdesc:a53bf9654ce8a84bc294528b041027c3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocity along the x-axis.  <br /></td></tr>
 <tr class="separator:a53bf9654ce8a84bc294528b041027c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5ec7ca65cc36f119586d446e42c6175" id="r_af5ec7ca65cc36f119586d446e42c6175"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5ec7ca65cc36f119586d446e42c6175">vy</a></td></tr>
+<tr class="memdesc:af5ec7ca65cc36f119586d446e42c6175"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocity along the y-axis.  <br /></td></tr>
 <tr class="separator:af5ec7ca65cc36f119586d446e42c6175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173e71dda6a7847b59b8bc1307621310" id="r_a173e71dda6a7847b59b8bc1307621310"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_particle_data.html">ParticleData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a173e71dda6a7847b59b8bc1307621310">data</a></td></tr>
+<tr class="memdesc:a173e71dda6a7847b59b8bc1307621310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the <a class="el" href="struct_particle_data.html" title="Structure representing particle data such as color and radius.">ParticleData</a> associated with the particle.  <br /></td></tr>
+<tr class="separator:a173e71dda6a7847b59b8bc1307621310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="particle_8h_source.html#l00006">6</a> of file <a class="el" href="particle_8h_source.html">particle.h</a>.</p>
+<div class="textblock"><p>Represents a particle in a graphics scene. </p>
+
+<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2_particle_life_2particle_8h_source.html#l00016">16</a> of file <a class="el" href="_my_notes_maker_2_particle_life_2particle_8h_source.html">particle.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a33719abe891162d878ad778e6a401b2a" name="a33719abe891162d878ad778e6a401b2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33719abe891162d878ad778e6a401b2a">&#9670;&#160;</a></span>Particle()</h2>
+<a id="a812ff967ca85f0d488d54a7309b61ee6" name="a812ff967ca85f0d488d54a7309b61ee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a812ff967ca85f0d488d54a7309b61ee6">&#9670;&#160;</a></span>Particle() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,18 +204,289 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QColor</td>          <td class="paramname"><span class="paramname"><em>color</em></span>&#160;)</td>
+          <td class="paramtype">QColor</td>          <td class="paramname"><span class="paramname"><em>color</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_particle_data.html">ParticleData</a> *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="particle_8cpp_source.html#l00004">4</a> of file <a class="el" href="particle_8cpp_source.html">particle.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html#l00004">4</a> of file <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html">particle.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad6a6fe2fda80bcfcd2b94c012047243d" name="ad6a6fe2fda80bcfcd2b94c012047243d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a6fe2fda80bcfcd2b94c012047243d">&#9670;&#160;</a></span>Particle() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Particle::Particle </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>xspread</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>yspread</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_particle_data.html">ParticleData</a> *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor for the <a class="el" href="class_particle.html" title="Represents a particle in a graphics scene.">Particle</a> class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xspread</td><td>The spread of x coordinates. </td></tr>
+    <tr><td class="paramname">yspread</td><td>The spread of y coordinates. </td></tr>
+    <tr><td class="paramname">radius</td><td>The radius of the particle. </td></tr>
+    <tr><td class="paramname">color</td><td>The color of the particle. </td></tr>
+    <tr><td class="paramname">data</td><td>Pointer to the <a class="el" href="struct_particle_data.html" title="Structure representing particle data such as color and radius.">ParticleData</a> associated with the particle. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_particle_life_2particle_8cpp_source.html#l00004">4</a> of file <a class="el" href="_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_particle_life_2particle_8cpp_source.html">particle.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad6a6fe2fda80bcfcd2b94c012047243d" name="ad6a6fe2fda80bcfcd2b94c012047243d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a6fe2fda80bcfcd2b94c012047243d">&#9670;&#160;</a></span>Particle() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Particle::Particle </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>xspread</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>yspread</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_particle_data.html">ParticleData</a> *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor for the <a class="el" href="class_particle.html" title="Represents a particle in a graphics scene.">Particle</a> class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xspread</td><td>The spread of x coordinates. </td></tr>
+    <tr><td class="paramname">yspread</td><td>The spread of y coordinates. </td></tr>
+    <tr><td class="paramname">radius</td><td>The radius of the particle. </td></tr>
+    <tr><td class="paramname">color</td><td>The color of the particle. </td></tr>
+    <tr><td class="paramname">data</td><td>Pointer to the <a class="el" href="struct_particle_data.html" title="Structure representing particle data such as color and radius.">ParticleData</a> associated with the particle. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a812ff967ca85f0d488d54a7309b61ee6" name="a812ff967ca85f0d488d54a7309b61ee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a812ff967ca85f0d488d54a7309b61ee6">&#9670;&#160;</a></span>Particle() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Particle::Particle </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>xspread</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>yspread</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>radius</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QColor</td>          <td class="paramname"><span class="paramname"><em>color</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_particle_data.html">ParticleData</a> *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="adbeddce31d6cd37046bd271f58c5c092" name="adbeddce31d6cd37046bd271f58c5c092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbeddce31d6cd37046bd271f58c5c092">&#9670;&#160;</a></span>getColor() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Particle::getColor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html#l00034">34</a> of file <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html">particle.cpp</a>.</p>
+
+</div>
+</div>
+<a id="adbeddce31d6cd37046bd271f58c5c092" name="adbeddce31d6cd37046bd271f58c5c092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbeddce31d6cd37046bd271f58c5c092">&#9670;&#160;</a></span>getColor() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Particle::getColor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the color of the particle. </p>
+<dl class="section return"><dt>Returns</dt><dd>The color of the particle. </dd></dl>
+
+</div>
+</div>
+<a id="adbeddce31d6cd37046bd271f58c5c092" name="adbeddce31d6cd37046bd271f58c5c092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbeddce31d6cd37046bd271f58c5c092">&#9670;&#160;</a></span>getColor() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Particle::getColor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the color of the particle. </p>
+<dl class="section return"><dt>Returns</dt><dd>The color of the particle. </dd></dl>
+
+</div>
+</div>
+<a id="adbeddce31d6cd37046bd271f58c5c092" name="adbeddce31d6cd37046bd271f58c5c092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbeddce31d6cd37046bd271f58c5c092">&#9670;&#160;</a></span>getColor() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Particle::getColor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d816aaf75b3a8de7a63e559ff8be487" name="a6d816aaf75b3a8de7a63e559ff8be487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d816aaf75b3a8de7a63e559ff8be487">&#9670;&#160;</a></span>getRadius() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Particle::getRadius </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html#l00039">39</a> of file <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html">particle.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a6d816aaf75b3a8de7a63e559ff8be487" name="a6d816aaf75b3a8de7a63e559ff8be487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d816aaf75b3a8de7a63e559ff8be487">&#9670;&#160;</a></span>getRadius() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Particle::getRadius </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the radius of the particle. </p>
+<dl class="section return"><dt>Returns</dt><dd>The radius of the particle. </dd></dl>
+
+</div>
+</div>
+<a id="a6d816aaf75b3a8de7a63e559ff8be487" name="a6d816aaf75b3a8de7a63e559ff8be487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d816aaf75b3a8de7a63e559ff8be487">&#9670;&#160;</a></span>getRadius() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Particle::getRadius </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the radius of the particle. </p>
+<dl class="section return"><dt>Returns</dt><dd>The radius of the particle. </dd></dl>
+
+</div>
+</div>
+<a id="a6d816aaf75b3a8de7a63e559ff8be487" name="a6d816aaf75b3a8de7a63e559ff8be487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d816aaf75b3a8de7a63e559ff8be487">&#9670;&#160;</a></span>getRadius() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Particle::getRadius </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abfb4bf98fe44d8d9238969e6087447d1" name="abfb4bf98fe44d8d9238969e6087447d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfb4bf98fe44d8d9238969e6087447d1">&#9670;&#160;</a></span>getVX()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abfb4bf98fe44d8d9238969e6087447d1">&#9670;&#160;</a></span>getVX() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -161,12 +500,69 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="particle_8cpp_source.html#l00013">13</a> of file <a class="el" href="particle_8cpp_source.html">particle.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html#l00014">14</a> of file <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html">particle.cpp</a>.</p>
+
+</div>
+</div>
+<a id="abfb4bf98fe44d8d9238969e6087447d1" name="abfb4bf98fe44d8d9238969e6087447d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfb4bf98fe44d8d9238969e6087447d1">&#9670;&#160;</a></span>getVX() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Particle::getVX </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the velocity along the x-axis. </p>
+<dl class="section return"><dt>Returns</dt><dd>The velocity along the x-axis. </dd></dl>
+
+</div>
+</div>
+<a id="abfb4bf98fe44d8d9238969e6087447d1" name="abfb4bf98fe44d8d9238969e6087447d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfb4bf98fe44d8d9238969e6087447d1">&#9670;&#160;</a></span>getVX() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Particle::getVX </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the velocity along the x-axis. </p>
+<dl class="section return"><dt>Returns</dt><dd>The velocity along the x-axis. </dd></dl>
+
+</div>
+</div>
+<a id="abfb4bf98fe44d8d9238969e6087447d1" name="abfb4bf98fe44d8d9238969e6087447d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfb4bf98fe44d8d9238969e6087447d1">&#9670;&#160;</a></span>getVX() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Particle::getVX </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a id="a40504f0c623b73a0832c12d61fcface0" name="a40504f0c623b73a0832c12d61fcface0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40504f0c623b73a0832c12d61fcface0">&#9670;&#160;</a></span>getVY()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a40504f0c623b73a0832c12d61fcface0">&#9670;&#160;</a></span>getVY() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,12 +576,69 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="particle_8cpp_source.html#l00018">18</a> of file <a class="el" href="particle_8cpp_source.html">particle.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html#l00019">19</a> of file <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html">particle.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a40504f0c623b73a0832c12d61fcface0" name="a40504f0c623b73a0832c12d61fcface0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40504f0c623b73a0832c12d61fcface0">&#9670;&#160;</a></span>getVY() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Particle::getVY </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the velocity along the y-axis. </p>
+<dl class="section return"><dt>Returns</dt><dd>The velocity along the y-axis. </dd></dl>
+
+</div>
+</div>
+<a id="a40504f0c623b73a0832c12d61fcface0" name="a40504f0c623b73a0832c12d61fcface0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40504f0c623b73a0832c12d61fcface0">&#9670;&#160;</a></span>getVY() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Particle::getVY </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the velocity along the y-axis. </p>
+<dl class="section return"><dt>Returns</dt><dd>The velocity along the y-axis. </dd></dl>
+
+</div>
+</div>
+<a id="a40504f0c623b73a0832c12d61fcface0" name="a40504f0c623b73a0832c12d61fcface0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40504f0c623b73a0832c12d61fcface0">&#9670;&#160;</a></span>getVY() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Particle::getVY </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a id="a2012f86253458fc9ca26492170232abd" name="a2012f86253458fc9ca26492170232abd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2012f86253458fc9ca26492170232abd">&#9670;&#160;</a></span>setVX()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2012f86253458fc9ca26492170232abd">&#9670;&#160;</a></span>setVX() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -199,12 +652,79 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="particle_8cpp_source.html#l00023">23</a> of file <a class="el" href="particle_8cpp_source.html">particle.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html#l00024">24</a> of file <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html">particle.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a2012f86253458fc9ca26492170232abd" name="a2012f86253458fc9ca26492170232abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2012f86253458fc9ca26492170232abd">&#9670;&#160;</a></span>setVX() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Particle::setVX </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the velocity along the x-axis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tx</td><td>The velocity along the x-axis to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2012f86253458fc9ca26492170232abd" name="a2012f86253458fc9ca26492170232abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2012f86253458fc9ca26492170232abd">&#9670;&#160;</a></span>setVX() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Particle::setVX </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the velocity along the x-axis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tx</td><td>The velocity along the x-axis to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2012f86253458fc9ca26492170232abd" name="a2012f86253458fc9ca26492170232abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2012f86253458fc9ca26492170232abd">&#9670;&#160;</a></span>setVX() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Particle::setVX </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>tx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a id="afdfdd1c987b8ade883b91b2def46c0c1" name="afdfdd1c987b8ade883b91b2def46c0c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdfdd1c987b8ade883b91b2def46c0c1">&#9670;&#160;</a></span>setVY()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afdfdd1c987b8ade883b91b2def46c0c1">&#9670;&#160;</a></span>setVY() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218,11 +738,104 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="particle_8cpp_source.html#l00028">28</a> of file <a class="el" href="particle_8cpp_source.html">particle.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html#l00029">29</a> of file <a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html">particle.cpp</a>.</p>
+
+</div>
+</div>
+<a id="afdfdd1c987b8ade883b91b2def46c0c1" name="afdfdd1c987b8ade883b91b2def46c0c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdfdd1c987b8ade883b91b2def46c0c1">&#9670;&#160;</a></span>setVY() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Particle::setVY </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>ty</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the velocity along the y-axis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ty</td><td>The velocity along the y-axis to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afdfdd1c987b8ade883b91b2def46c0c1" name="afdfdd1c987b8ade883b91b2def46c0c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdfdd1c987b8ade883b91b2def46c0c1">&#9670;&#160;</a></span>setVY() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Particle::setVY </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>ty</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the velocity along the y-axis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ty</td><td>The velocity along the y-axis to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afdfdd1c987b8ade883b91b2def46c0c1" name="afdfdd1c987b8ade883b91b2def46c0c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdfdd1c987b8ade883b91b2def46c0c1">&#9670;&#160;</a></span>setVY() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Particle::setVY </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>ty</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a173e71dda6a7847b59b8bc1307621310" name="a173e71dda6a7847b59b8bc1307621310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a173e71dda6a7847b59b8bc1307621310">&#9670;&#160;</a></span>data</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_particle_data.html">ParticleData</a> * Particle::data</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pointer to the <a class="el" href="struct_particle_data.html" title="Structure representing particle data such as color and radius.">ParticleData</a> associated with the particle. </p>
+
+<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2_particle_life_2particle_8h_source.html#l00020">20</a> of file <a class="el" href="_my_notes_maker_2_particle_life_2particle_8h_source.html">particle.h</a>.</p>
+
+</div>
+</div>
 <a id="a53bf9654ce8a84bc294528b041027c3a" name="a53bf9654ce8a84bc294528b041027c3a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a53bf9654ce8a84bc294528b041027c3a">&#9670;&#160;</a></span>vx</h2>
 
@@ -243,7 +856,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="particle_8h_source.html#l00009">9</a> of file <a class="el" href="particle_8h_source.html">particle.h</a>.</p>
+<p>Velocity along the x-axis. </p>
+
+<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2_particle_life_2particle_8h_source.html#l00019">19</a> of file <a class="el" href="_my_notes_maker_2_particle_life_2particle_8h_source.html">particle.h</a>.</p>
 
 </div>
 </div>
@@ -267,13 +882,21 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="particle_8h_source.html#l00009">9</a> of file <a class="el" href="particle_8h_source.html">particle.h</a>.</p>
+<p>Velocity along the y-axis. </p>
+
+<p class="definition">Definition at line <a class="el" href="_my_notes_maker_2_particle_life_2particle_8h_source.html#l00019">19</a> of file <a class="el" href="_my_notes_maker_2_particle_life_2particle_8h_source.html">particle.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>ParticleLife/<a class="el" href="particle_8h_source.html">particle.h</a></li>
-<li>ParticleLife/<a class="el" href="particle_8cpp_source.html">particle.cpp</a></li>
+<li>MyNotesMaker/ParticleLife/<a class="el" href="_my_notes_maker_2_particle_life_2particle_8h_source.html">particle.h</a></li>
+<li>OOOP/MyNotesMaker/MyNotesMaker/ParticleLife/<a class="el" href="_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_particle_life_2particle_8h_source.html">particle.h</a></li>
+<li>qt/OOOP/MyNotesMaker/MyNotesMaker/ParticleLife/<a class="el" href="qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_particle_life_2particle_8h_source.html">particle.h</a></li>
+<li>task/OOOP/MyNotesMaker/MyNotesMaker/ParticleLife/<a class="el" href="task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_particle_life_2particle_8h_source.html">particle.h</a></li>
+<li>MyNotesMaker/ParticleLife/<a class="el" href="_my_notes_maker_2_particle_life_2particle_8cpp_source.html">particle.cpp</a></li>
+<li>OOOP/MyNotesMaker/MyNotesMaker/ParticleLife/<a class="el" href="_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_particle_life_2particle_8cpp_source.html">particle.cpp</a></li>
+<li>qt/OOOP/MyNotesMaker/MyNotesMaker/ParticleLife/<a class="el" href="qt_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_particle_life_2particle_8cpp_source.html">particle.cpp</a></li>
+<li>task/OOOP/MyNotesMaker/MyNotesMaker/ParticleLife/<a class="el" href="task_2_o_o_o_p_2_my_notes_maker_2_my_notes_maker_2_particle_life_2particle_8cpp_source.html">particle.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

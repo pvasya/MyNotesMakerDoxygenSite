@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['opened_0',['Opened',['../_side_panel_state_8hpp.html#a249548f865fff3d95ee9770fafefd948a1a11b1adc359c03db0ca798a00e2632c',1,'SidePanelState.hpp']]],
-  ['opening_1',['Opening',['../_side_panel_state_8hpp.html#a249548f865fff3d95ee9770fafefd948a9bd99a0beea48f10663fc4a7d7a33140',1,'SidePanelState.hpp']]]
+  ['failedexactlynumtimes_0',['FailedExactlyNumTimes',['../namespacedoctest_1_1_test_case_failure_reason.html#aecb2ca1f80416d60f0d6b96f65859d3ca127f67bd6b608d4ea828d6d390dc8511',1,'doctest::TestCaseFailureReason']]]
 ];
